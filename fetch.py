@@ -28,5 +28,7 @@ df = pd.concat(df.values())
 cols = df.columns[~df.columns.str.startswith('Unnamed:')]
 df = df[cols]
 df["Age group"] = df["Age group"].str.strip()
+df["Last country before return"] = df["Last country before return"].str.strip()
+df = df.sort_values(by=list(df.columns), ascending=False)
 df.to_json("data.json", orient="records", indent=4)
 df.to_csv("data.csv", index=False)
