@@ -10,7 +10,7 @@ r = requests.get("https://www.health.govt.nz/our-work/diseases-and-conditions/co
 soup = BeautifulSoup(r.content)
 #with open("test.html", "rb") as f:
 #    soup = BeautifulSoup(f.read())
-link = soup.find("a", href=re.compile("case-list"))
+link = soup.find("a", href=re.compile("xlsx"))
 link = "https://www.health.govt.nz" + link["href"]
 print(link)
 if os.path.isfile("last_link.txt"):
