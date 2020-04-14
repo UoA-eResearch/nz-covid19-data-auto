@@ -5,8 +5,11 @@ import re
 import os
 from bs4 import BeautifulSoup
 import pandas as pd
+import time
 
-r = requests.get("https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details")
+url = "https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details"
+url += f"?{time.time()}"
+r = requests.get(url)
 soup = BeautifulSoup(r.content)
 #with open("test.html", "rb") as f:
 #    soup = BeautifulSoup(f.read())
