@@ -24,6 +24,11 @@ if os.path.isfile("last_link.txt"):
             exit(1)
 with open("last_link.txt", "w") as f:
     f.write(link)
+last_modified = soup.find("caption", text=re.compile("as at")).text
+last_modified = last_modified[last_modified.find("as at") + 5:].strip()
+with open("last_modified.txt", "w") as f:
+    f.write(last_modified)
+print(last_modified)
 df = pd.read_excel(link, skiprows=3, sheet_name=None)
 for k,v in df.items():
     v["Case Type"] = k
@@ -32,6 +37,7 @@ cols = df.columns[~df.columns.str.startswith('Unnamed:')]
 df = df[cols]
 df["Age group"] = df["Age group"].str.strip()
 df["Last country before return"] = df["Last country before return"].str.strip()
+df["Date of report"] = pd.to_datetime(df["Date of report"], dayfirst=True)
 df = df.sort_values(by=list(df.columns), ascending=False)
 df.to_json("data.json", orient="records", indent=4)
 df.to_csv("data.csv", index=False)
