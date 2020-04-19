@@ -16,12 +16,12 @@ soup = BeautifulSoup(r.content)
 
 table = soup.find("caption", string=re.compile("Total cases by DHB")).parent
 headers = []
-for heading in table.find_all("th"):
+for heading in table.find("thead").find_all("th"):
     headers.append(heading.text)
 rows = []
-for row in table.find_all("tr"):
+for row in table.find("tbody").find_all("tr"):
     row_list = []
-    for col in row.find_all("td"):
+    for col in row.find_all(["th", "td"]):
         if col.text == "\xa0":
             row_list.append("")
         else:
