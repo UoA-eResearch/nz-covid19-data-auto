@@ -24,8 +24,9 @@ if os.path.isfile("last_link.txt"):
             exit(1)
 with open("last_link.txt", "w") as f:
     f.write(link)
-last_modified = soup.find("caption", text=re.compile("as at")).text
-last_modified = last_modified[last_modified.find("as at") + 5:].strip().replace(u'\xa0', " ") # nbsp
+search_string = "Last updated"
+last_modified = soup.find("p", text=re.compile(search_string)).text
+last_modified = last_modified[last_modified.find(search_string) + len(search_string):].strip(". ").replace(u'\xa0', " ") # nbsp
 with open("last_modified.txt", "w") as f:
     f.write(last_modified)
 print(last_modified)
