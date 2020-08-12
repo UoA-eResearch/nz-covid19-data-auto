@@ -37,7 +37,7 @@ df = pd.concat(df.values())
 cols = df.columns[~df.columns.str.startswith('Unnamed:')]
 df = df[cols]
 df["Age group"] = df["Age group"].str.strip()
-df["Last country before return"] = df["Last country before return"].str.strip()
+df["Last location before return"] = df["Last location before return"].str.strip()
 df["Date of report"] = pd.to_datetime(df["Date notified of potential case"], dayfirst=True)
 df = df.drop("Date notified of potential case", 1)
 keys = list(df.keys())
