@@ -25,7 +25,7 @@ for row in table.find("tbody").find_all("tr"):
         if col.text == "\xa0":
             row_list.append("")
         else:
-            row_list.append(col.text.replace("ā", "a").replace(",", "").replace("\n", ""))
+            row_list.append(col.get_text(strip=True).replace("ā", "a").replace(",", ""))
     if row_list:
         rows.append(row_list)
 with open("cases_by_DHB.csv", "w") as f:
