@@ -30,7 +30,7 @@ last_modified = last_modified[last_modified.find(search_string) + len(search_str
 with open("last_modified.txt", "w") as f:
     f.write(last_modified)
 print(last_modified)
-df = pd.read_excel(link, skiprows=3, sheet_name=None)
+df = pd.read_excel(link, skiprows=2, sheet_name=None)
 for k,v in df.items():
     v["Case Type"] = k
 df = pd.concat(df.values())
