@@ -24,12 +24,6 @@ if os.path.isfile("last_link.txt"):
             exit(1)
 with open("last_link.txt", "w") as f:
     f.write(link)
-search_string = "Last updated"
-last_modified = soup.find("p", text=re.compile(search_string)).text
-last_modified = last_modified[last_modified.find(search_string) + len(search_string):].strip(". ").replace(u'\xa0', " ") # nbsp
-with open("last_modified.txt", "w") as f:
-    f.write(last_modified)
-print(last_modified)
 df = pd.read_excel(requests.get(link).content, skiprows=2, sheet_name=None, skip_blank_lines=True)
 for k,v in df.items():
     v["Case Type"] = k
