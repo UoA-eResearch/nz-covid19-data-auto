@@ -6,17 +6,19 @@ import os
 from bs4 import BeautifulSoup
 import pandas as pd
 import time
+from io import StringIO
 
-url = "https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-current-situation/covid-19-current-cases/covid-19-current-cases-details"
+url = "https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-case-demographics"
 url += f"?{time.time()}"
 r = requests.get(url)
 soup = BeautifulSoup(r.content)
-#with open("test.html", "rb") as f:
-#    soup = BeautifulSoup(f.read())
-link = soup.find("a", href=re.compile("xlsx"))
+link = soup.find("a", href=re.compile("csv"))
 link = "https://www.health.govt.nz" + link["href"]
 print(link)
-if os.path.isfile("last_link.txt"):
+
+force = False
+
+if not force and os.path.isfile("last_link.txt"):
     with open("last_link.txt", "r") as f:
         last_link = f.read()
         if link == last_link:
@@ -24,18 +26,11 @@ if os.path.isfile("last_link.txt"):
             exit(1)
 with open("last_link.txt", "w") as f:
     f.write(link)
-df = pd.read_excel(requests.get(link).content, skiprows=2, sheet_name=None, skip_blank_lines=True)
-for k,v in df.items():
-    v["Case Type"] = k
-df = pd.concat(df.values())
-cols = df.columns[~df.columns.str.startswith('Unnamed:')]
-df = df[cols]
-df["Age group"] = df["Age group"].str.strip()
-df["Date of report"] = pd.to_datetime(df["Date notified of potential case"], dayfirst=True)
-df = df.drop("Date notified of potential case", 1)
-keys = list(df.keys())
-keys.insert(0, keys.pop(keys.index("Date of report")))
-df = df[keys]
-df = df.sort_values(by=list(df.columns), ascending=False)
-df.to_json("data.json", orient="records", indent=4)
+
+r = requests.get(link)
+data = StringIO(r.text)
+headers = ["Report Date", "Case Status", "Sex", "Age group", "DHB", "Overseas travel"]
+df = pd.read_csv(data, header=0, names=headers, skip_blank_lines=True)
+df = df.sort_values(by=headers, ascending=False)
 df.to_csv("data.csv", index=False)
+print(df)
