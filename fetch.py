@@ -37,6 +37,7 @@ r = requests.get(link)
 data = StringIO(r.text)
 headers = ["Report Date", "Case Status", "Sex", "Age group", "DHB", "Overseas travel"]
 df = pd.read_csv(data, header=0, names=headers, skip_blank_lines=True)
+df["Report Date"] = pd.to_datetime(df["Report Date"], dayfirst=True)
 df = df.sort_values(by=headers, ascending=False)
 df.to_csv("data.csv", index=False)
 print(df)
