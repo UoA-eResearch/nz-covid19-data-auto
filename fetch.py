@@ -8,6 +8,7 @@ import pandas as pd
 import time
 from io import StringIO
 from util import html_table_to_df
+import sys
 
 url = "https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-case-demographics"
 url += f"?{time.time()}"
@@ -37,6 +38,9 @@ r = requests.get(link)
 data = StringIO(r.text)
 headers = ["Report Date", "Case Status", "Sex", "Age group", "DHB", "Overseas travel"]
 df = pd.read_csv(data, header=0, names=headers, skip_blank_lines=True)
+if len(df) < 2000:
+    print("CSV has too few rows, aborting")
+    sys.exit(1)
 df["Report Date"] = pd.to_datetime(df["Report Date"], dayfirst=True)
 df = df.sort_values(by=headers, ascending=False)
 df.to_csv("data.csv", index=False)
