@@ -34,4 +34,6 @@ r = requests.get(link)
 sheets = pd.read_excel(r.content, sheet_name=None)
 for k, df in sheets.items():
     print(k, df)
+    cols = df.columns[~df.columns.str.startswith('Unnamed:')]
+    df = df[cols]
     df.to_csv(f"vaccinations/{k}.csv", index=False)
