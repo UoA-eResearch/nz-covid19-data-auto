@@ -36,7 +36,7 @@ with open("last_link.txt", "w") as f:
 
 r = requests.get(link)
 data = StringIO(r.text)
-headers = ["Report Date", "Case Status", "Sex", "Age group", "DHB", "Overseas travel"]
+headers = ["Report Date", "Case Status", "Sex", "Age group", "DHB", "Overseas travel", "Historical"]
 df = pd.read_csv(data, header=0, names=headers, skip_blank_lines=True)
 if len(df) < 2000:
     print("CSV has too few rows, aborting")
