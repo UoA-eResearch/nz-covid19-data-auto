@@ -26,6 +26,8 @@ locations = []
 for entry in entries:
     for e in entry["resource"].get("extension"):
         eeInfo = {}
+        if entry["resource"].get("name"):
+            eeInfo["name"] = entry["resource"].get("name")
         location = {}
         for ee in e.get("extension", []):
             if "valueString" in ee:
