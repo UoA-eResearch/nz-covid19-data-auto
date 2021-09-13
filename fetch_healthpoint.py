@@ -40,8 +40,8 @@ for entry in entries:
                             location[eeee["url"]] = eeee["valueDecimal"]
                     elif eee["url"] in ["hours-description", "hp-location-url"]:
                         location["url"] = eee["valueString"]
-        if location.get("location"):
-            locations.append(location)
+                if location.get("location"):
+                    locations.append(location)
 
 #pprint(locations)
 print(len(locations))
