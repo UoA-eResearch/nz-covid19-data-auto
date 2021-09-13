@@ -7,19 +7,27 @@ from pprint import pprint
 import pandas as pd
 import time
 
-entries = []
-API_KEY = os.environ["APIKEY"]
-url = "https://uat.healthpointapi.com/baseR4/HealthcareService?services-provided-type=COVID-19%20Vaccination&_count=200" # Max 200 entries
-while url:
-    print(f"Fetching {url}")
-    resp = requests.get(url, headers={"x-api-key": API_KEY}).json()
-    print(f"Got {len(resp['entry'])} entries")
-    entries.extend(resp["entry"])
-    url = None
-    for link in resp["link"]:
-        if link["relation"] == "next":
-            url = link["url"]
-    time.sleep(1)
+DEBUG = False
+
+if DEBUG and os.path.isfile("healthpoint.json"):
+    with open("healthpoint.json") as f:
+        entries = json.load(f)
+else:
+    entries = []
+    API_KEY = os.environ["APIKEY"]
+    url = "https://uat.healthpointapi.com/baseR4/HealthcareService?services-provided-type=COVID-19%20Vaccination&_count=200" # Max 200 entries
+    while url:
+        print(f"Fetching {url}")
+        resp = requests.get(url, headers={"x-api-key": API_KEY}).json()
+        print(f"Got {len(resp['entry'])} entries")
+        entries.extend(resp["entry"])
+        url = None
+        for link in resp["link"]:
+            if link["relation"] == "next":
+                url = link["url"]
+        time.sleep(1)
+    with open("healthpoint.json", "w") as f:
+        json.dump(entries, f)
 
 locations = []
 
@@ -32,6 +40,20 @@ for entry in entries:
         for ee in e.get("extension", []):
             if "valueString" in ee:
                 eeInfo[ee["url"]] = ee["valueString"]
+            if ee["url"] == "services-provided":
+                serviceDict = {}
+                for eee in ee["extension"]:
+                    k = eee["url"]
+                    v = eee.get("valueString")
+                    if k in serviceDict:
+                        if type(serviceDict[k]) == str:
+                            serviceDict[k] = [serviceDict[k], v]
+                        else:
+                            serviceDict[k].append(v)
+                    else:
+                        serviceDict[k] = v
+                if serviceDict["services-name"] == "COVID-19 Vaccination":
+                    eeInfo.update(serviceDict)
             if ee["url"] == "service-location":
                 location = eeInfo.copy()
                 for eee in ee["extension"]:
