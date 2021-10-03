@@ -22,6 +22,7 @@ else:
         print(f"Got {len(resp['entry'])} entries")
         entries.extend(resp["entry"])
         url = None
+        pprint(resp["link"])
         for link in resp["link"]:
             if link["relation"] == "next":
                 url = link["url"]
@@ -30,6 +31,9 @@ else:
         json.dump(entries, f)
 
 locations = []
+if len(entries) < 200:
+    print(f"Only got {len(entries)} entries, something's wrong, aborting")
+    exit(1)
 
 for entry in entries:
     for e in entry["resource"].get("extension"):
