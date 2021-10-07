@@ -14,7 +14,7 @@ for i, row in df.iterrows():
         "type": "Feature",
         "geometry": {
             "type": "Point",
-            "coordinates": [row.longitude, row.latitude]
+            "coordinates": [row.lat, row.lng]
         },
         "properties": row.to_dict()
     })
