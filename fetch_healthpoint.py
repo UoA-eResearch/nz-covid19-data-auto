@@ -10,6 +10,9 @@ import time
 locations = requests.get("https://www.healthpoint.co.nz/geo.do?zoom=18&branch=covid-19-vaccination").json()["results"]
 for l in locations:
     l["url"] = "https://www.healthpoint.co.nz" + l["url"]
+    if l["id"] == 464094:
+        l["id"] = 318617
+        l["branch"] = "primary"
 print(len(locations))
-df = pd.DataFrame(locations).sort_values(by=["lat", "lng"])
+df = pd.DataFrame(locations).sort_values(by=["id", "lat", "lng"])
 df.to_csv("vaccinations/healthpoint_locations.csv", index=False)
