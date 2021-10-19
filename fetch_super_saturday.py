@@ -6,6 +6,9 @@ import json
 from pprint import pprint
 import pandas as pd
 
+import requests_cache
+requests_cache.install_cache('cache')
+
 url = "https://web.archive.org/web/20211015191851mp_/https://covid19.govt.nz/covid-19-vaccines/how-to-get-a-covid-19-vaccination/super-saturday/"
 print(f"Fetching {url}")
 response = requests.get(url)
@@ -28,10 +31,14 @@ for link in links:
     try:
         plain_dfs = pd.read_html(response.text, header=0)
         print(f"Found {len(plain_dfs)} plain tables on the page")
+        if plain_dfs and "super-accessible-vaccination-centres" in response.text:
+            plain_dfs[-1]["Event description"] = "Super accessible vaccination centres"
+        print(plain_dfs)
         for df in plain_dfs:
             df["page"] = link.text
             dfs.append(df)
-    except:
+    except Exception as e:
+        print(e)
         pass
     
     soup = BeautifulSoup(response.text, "lxml")
@@ -48,4 +55,5 @@ for link in links:
 df = pd.concat(dfs, sort=False)
 cols = df.columns[~df.columns.str.startswith('Unnamed:')]
 df = df[cols]
+print(df)
 df.to_csv("vaccinations/super_saturday.csv", index=False)
