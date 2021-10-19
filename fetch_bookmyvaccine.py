@@ -13,17 +13,16 @@ permanent_ids = [f["properties"]["locationID"] for f in permanent["features"]]
 for f in all_locations["features"]:
     p = f["properties"]
     p["adhoc"] = p["locationID"] not in permanent_ids
+    p["lng"] = f["geometry"]["coordinates"][0]
+    p["lat"] = f["geometry"]["coordinates"][1]
+
+def sort_key(f):
+    p = f["properties"]
+    return p["dhbRegion"] + str(p["lat"]) + str(p["lng"])
+all_locations["features"].sort(key=sort_key)
 
 with open("vaccinations/bookmyvaccine.geojson", "w") as f:
     json.dump(all_locations, f, indent=4)
 
-def parse_geojson(geojson):
-    features = []
-    for f in geojson["features"]:
-        p = f["properties"]
-        p["lng"] = f["geometry"]["coordinates"][0]
-        p["lat"] = f["geometry"]["coordinates"][1]
-        features.append(p)
-    return features
-
-pd.DataFrame(parse_geojson(all_locations)).to_csv("vaccinations/bookmyvaccine.csv", index=False)
+all_locations = [f["properties"] for f in all_locations["features"]]
+pd.DataFrame(all_locations).to_csv("vaccinations/bookmyvaccine.csv", index=False)
