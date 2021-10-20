@@ -109,11 +109,18 @@ for link in links:
                 df["page"] = page
                 print(f"Found {len(df)} locations")
                 dfs.append(df)
-            else:
-                print(f"{Fore.RED}Don't know how to handle {page}{Style.RESET_ALL}")
+            elif page == "Waikato":
+                plain_dfs = pd.read_html(response.text, header=0)
+                for df in plain_dfs:
+                    df.columns = ["location", "Address", "Opening hours"]
+                    df["page"] = page
+                    df = df.dropna()
+                    print(f"Found {len(df)} locations")
+                    dfs.append(df)
 
 df = pd.concat(dfs, sort=False)
 cols = df.columns[~df.columns.str.startswith('Unnamed:')]
 df = df[cols]
+df = df.drop_duplicates(subset=["Address"])
 print(df)
 df.to_csv("vaccinations/super_saturday.csv", index=False)
