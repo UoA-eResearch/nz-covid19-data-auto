@@ -176,7 +176,7 @@
                 "locationID": "a0R4a000000Tc5UEAS",
                 "dhbRegion": "Auckland",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.779169531,
                 "lat": -36.796847125
@@ -575,9 +575,9 @@
                 "location": "Dominion Road Surgery",
                 "locationID": "a0R4a000000XM30EAG",
                 "dhbRegion": "Auckland",
-                "availabilityDate": "2021-11-01",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.751984084,
                 "lat": -36.872406767
             }
@@ -1595,7 +1595,7 @@
                 "location": "The Capsule Pharmacy",
                 "locationID": "a0R4a000000WoEJEA0",
                 "dhbRegion": "Auckland",
-                "availabilityDate": "2021-11-05",
+                "availabilityDate": "2021-11-04",
                 "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.951288385,
@@ -1656,7 +1656,7 @@
                 "locationID": "a0R4a000000WOgLEAW",
                 "dhbRegion": "Bay of Plenty",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.0795407,
                 "lat": -37.6670204
@@ -1995,7 +1995,7 @@
                 "location": "Ohope Beach Medical Centre",
                 "locationID": "a0R4a000000Vc9WEAS",
                 "dhbRegion": "Bay of Plenty",
-                "availabilityDate": "2021-10-30",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 177.058398314,
@@ -2096,7 +2096,7 @@
                 "locationID": "a0R4a000000S17cEAC",
                 "dhbRegion": "Canterbury",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.7221347,
                 "lat": -43.1497002
@@ -2316,7 +2316,7 @@
                 "locationID": "a0R4a000000VXizEAG",
                 "dhbRegion": "Canterbury",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.606409783,
                 "lat": -43.494093709
@@ -2376,7 +2376,7 @@
                 "locationID": "a0R4a000000ST1yEAG",
                 "dhbRegion": "Canterbury",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.585936036,
                 "lat": -43.499599398
@@ -2455,7 +2455,7 @@
                 "location": "Alabaster's Merivale Pharmacy",
                 "locationID": "a0R4a000000ST3GEAW",
                 "dhbRegion": "Canterbury",
-                "availabilityDate": "2021-11-02",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.621834636,
@@ -2615,8 +2615,8 @@
                 "location": "Upper Riccarton- Bush Inn Pharmacy",
                 "locationID": "a0R4a000000VqTFEA0",
                 "dhbRegion": "Canterbury",
-                "availabilityDate": "2021-10-28",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "availabilityDate": "2021-11-05",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 172.575022461,
                 "lat": -43.529883
@@ -3155,11 +3155,31 @@
                 "location": "Unichem Stantons Pharmacy",
                 "locationID": "a0R4a000000TipCEAS",
                 "dhbRegion": "Canterbury",
-                "availabilityDate": "2021-10-29",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.5658362,
                 "lat": -43.5805752
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.375490579,
+                    -43.594701259
+                ]
+            },
+            "properties": {
+                "location": "Rolleston Medical Centre",
+                "locationID": "a0R4a000000SP7TEAW",
+                "dhbRegion": "Canterbury",
+                "availabilityDate": "2021-10-28",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 172.375490579,
+                "lat": -43.594701259
             }
         },
         {
@@ -3947,6 +3967,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.777378837,
+                    -41.291099063
+                ]
+            },
+            "properties": {
+                "location": "Evolve Wellington Youth Service",
+                "locationID": "a0R4a000000U5EOEA0",
+                "dhbRegion": "Capital and Coast",
+                "availabilityDate": "2021-11-02",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 174.777378837,
+                "lat": -41.291099063
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.77584198,
                     -41.292817794
                 ]
@@ -4716,7 +4756,7 @@
                 "locationID": "a0R4a000000XQZNEA4",
                 "dhbRegion": "Counties Manukau",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 174.862155532,
                 "lat": -36.970241175
@@ -4856,7 +4896,7 @@
                 "locationID": "a0R4a000000VTLEEA4",
                 "dhbRegion": "Counties Manukau",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.878720798,
                 "lat": -36.984395635
@@ -5055,7 +5095,7 @@
                 "location": "Clendon Discount Pharmacy",
                 "locationID": "a0R4a000000WnDNEA0",
                 "dhbRegion": "Counties Manukau",
-                "availabilityDate": "2021-11-02",
+                "availabilityDate": "2021-10-29",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.868048812,
@@ -5120,6 +5160,26 @@
                 "adhoc": false,
                 "lng": 174.86559213,
                 "lat": -37.043022504
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.953456296,
+                    -37.058470688
+                ]
+            },
+            "properties": {
+                "location": "Papakura East Medical Centre",
+                "locationID": "a0R4a000000XKj1EAG",
+                "dhbRegion": "Counties Manukau",
+                "availabilityDate": "2021-10-28",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.953456296,
+                "lat": -37.058470688
             }
         },
         {
@@ -5396,7 +5456,7 @@
                 "locationID": "a0R4a000000UHP4EAO",
                 "dhbRegion": "Hawke\u2019s Bay",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.905340998,
                 "lat": -39.493354316
@@ -5616,7 +5676,7 @@
                 "locationID": "a0R4a000000VvhIEAS",
                 "dhbRegion": "Hawke\u2019s Bay",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 176.840838544,
                 "lat": -39.545659566
@@ -5672,7 +5732,7 @@
                 ]
             },
             "properties": {
-                "location": "Totara Health Flaxmere DRIVE THROUGH SATURDAYS - In clinic weekdays",
+                "location": "Totara Health Flaxmere Inside main clinic",
                 "locationID": "a0R4a000000SttFEAS",
                 "dhbRegion": "Hawke\u2019s Bay",
                 "availabilityDate": "2021-10-28",
@@ -6315,7 +6375,7 @@
                 "location": "Owhata Pharmacy",
                 "locationID": "a0R4a000000VUBoEAO",
                 "dhbRegion": "Lakes",
-                "availabilityDate": "2021-10-29",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.302375959,
@@ -6656,7 +6716,7 @@
                 "locationID": "a0R4a000000QaSFEA0",
                 "dhbRegion": "MidCentral",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.5689674,
                 "lat": -40.231217
@@ -6856,7 +6916,7 @@
                 "locationID": "a0R4a000000QamKEAS",
                 "dhbRegion": "MidCentral",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 175.5842511,
                 "lat": -40.3791599
@@ -6896,7 +6956,7 @@
                 "locationID": "a0R4a000000RGTLEA4",
                 "dhbRegion": "MidCentral",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.84305324,
                 "lat": -40.450989913
@@ -6955,7 +7015,7 @@
                 "location": "Hamish Barham Pharmacy Vaccination Site, \u014ctaki",
                 "locationID": "a0R4a000000RewYEAS",
                 "dhbRegion": "MidCentral",
-                "availabilityDate": "2021-10-29",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.1403632,
@@ -7216,7 +7276,7 @@
                 "locationID": "a0R4a000000SKkCEAW",
                 "dhbRegion": "Nelson Marlborough",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.2823018,
                 "lat": -41.2740708
@@ -7356,7 +7416,7 @@
                 "locationID": "a0R4a000000UCbrEAG",
                 "dhbRegion": "Nelson Marlborough",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.234025112,
                 "lat": -41.312104949
@@ -7476,7 +7536,7 @@
                 "locationID": "a0R4a000000SLPGEA4",
                 "dhbRegion": "Nelson Marlborough",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.04246801,
                 "lat": -41.405728528
@@ -7655,7 +7715,7 @@
                 "location": "Far North Pharmacy",
                 "locationID": "a0R4a000000UOukEAG",
                 "dhbRegion": "Northland",
-                "availabilityDate": "2021-10-29",
+                "availabilityDate": "2021-11-02",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.264734,
@@ -7816,7 +7876,7 @@
                 "locationID": "a0R4a000000TQzAEAW",
                 "dhbRegion": "Northland",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 173.389285579,
                 "lat": -35.533205885
@@ -8095,7 +8155,7 @@
                 "location": "Mangawhai Pharmacy",
                 "locationID": "a0R4a000000V7iNEAS",
                 "dhbRegion": "Northland",
-                "availabilityDate": "2021-11-01",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.5852458,
@@ -8315,7 +8375,7 @@
                 "location": "Aspiring Medical Centre - Wanaka Community Hub",
                 "locationID": "a0R4a000000QVPzEAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-03",
+                "availabilityDate": "2021-11-06",
                 "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 169.1299194,
@@ -8936,7 +8996,7 @@
                 "locationID": "a0R4a000000QVMvEAO",
                 "dhbRegion": "Southern",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.3917428,
                 "lat": -45.2577174
@@ -8955,7 +9015,7 @@
                 "location": "Te Anau - Fiordland Medical Practice",
                 "locationID": "a0R4a000000QVSKEA4",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-10-28",
+                "availabilityDate": "2021-11-02",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 167.7202524,
@@ -9056,7 +9116,7 @@
                 "locationID": "a0R4a000000SwYfEAK",
                 "dhbRegion": "Southern",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.517863014,
                 "lat": -45.854542127
@@ -9156,7 +9216,7 @@
                 "locationID": "a0R4a000000SwO8EAK",
                 "dhbRegion": "Southern",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.508860116,
                 "lat": -45.866104633
@@ -9375,7 +9435,7 @@
                 "location": "Unichem Central Pharmacy Mosgiel",
                 "locationID": "a0R4a000000SIHYEA4",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-02",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.348731457,
@@ -9716,7 +9776,7 @@
                 "locationID": "a0R4a000000QWPEEA4",
                 "dhbRegion": "Southern",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 169.2629683,
                 "lat": -45.9373066
@@ -9995,8 +10055,8 @@
                 "location": "Riverton Medical Centre",
                 "locationID": "a0R4a000000SCqZEAW",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDate": "2021-10-28",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.016759631,
                 "lat": -46.349108024
@@ -10035,7 +10095,7 @@
                 "location": "Waikiwi Medical Centre",
                 "locationID": "a0R4a000000SNn7EAG",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-10-30",
+                "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.347874984,
@@ -10075,7 +10135,7 @@
                 "location": "Windsor Pharmacy",
                 "locationID": "a0R4a000000T7cBEAS",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-01",
+                "availabilityDate": "2021-11-03",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.365454284,
@@ -10156,7 +10216,7 @@
                 "locationID": "a0R4a000000SUG0EAO",
                 "dhbRegion": "Southern",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.348357725,
                 "lat": -46.405343249
@@ -10776,7 +10836,7 @@
                 "locationID": "a0R4a000000VYKtEAO",
                 "dhbRegion": "Taranaki",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 174.292679163,
                 "lat": -39.162354331
@@ -10956,7 +11016,7 @@
                 "locationID": "a0R4a000000VYqZEAW",
                 "dhbRegion": "Taranaki",
                 "availabilityDate": "2021-11-24",
-                "availabilityDateFlag": "TWENTYNINE_OR_MORE",
+                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": true,
                 "lng": 174.1493916,
                 "lat": -39.4292747
@@ -11415,8 +11475,8 @@
                 "location": "Health Te Aroha",
                 "locationID": "a0R4a000000Skr3EAC",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDate": "2021-10-28",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.712037169,
                 "lat": -37.541198126
@@ -11752,12 +11812,12 @@
                 ]
             },
             "properties": {
-                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
-                "locationID": "a0R4a000000RyGnEAK",
+                "location": "West Hamilton Pharmacy",
+                "locationID": "a0R4a000000SkqUEAS",
                 "dhbRegion": "Waikato",
                 "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 175.2373039,
                 "lat": -37.7812079
             }
@@ -11772,12 +11832,12 @@
                 ]
             },
             "properties": {
-                "location": "West Hamilton Pharmacy",
-                "locationID": "a0R4a000000SkqUEAS",
+                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
+                "locationID": "a0R4a000000RyGnEAK",
                 "dhbRegion": "Waikato",
                 "availabilityDate": "2021-10-28",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 175.2373039,
                 "lat": -37.7812079
             }
@@ -12896,7 +12956,7 @@
                 "locationID": "a0R4a000000W1SYEA0",
                 "dhbRegion": "Waitemata",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.739736436,
                 "lat": -36.747215515
@@ -12940,6 +13000,26 @@
                 "adhoc": false,
                 "lng": 174.7396118,
                 "lat": -36.7595745
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.494288668,
+                    -36.767583366
+                ]
+            },
+            "properties": {
+                "location": "The Doctors Silver Fern",
+                "locationID": "a0R4a000000XS01EAG",
+                "dhbRegion": "Waitemata",
+                "availabilityDate": "2021-10-30",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 174.494288668,
+                "lat": -36.767583366
             }
         },
         {
@@ -13180,6 +13260,26 @@
                 "adhoc": false,
                 "lng": 174.649409422,
                 "lat": -36.797595361
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.7459975,
+                    -36.801232045
+                ]
+            },
+            "properties": {
+                "location": "Northcote Family Pharmacy",
+                "locationID": "a0R4a000000XmrkEAC",
+                "dhbRegion": "Waitemata",
+                "availabilityDate": "2021-10-29",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 174.7459975,
+                "lat": -36.801232045
             }
         },
         {
@@ -13655,8 +13755,8 @@
                 "location": "Lynnmall Pharmacy Mobile Vaccination Site",
                 "locationID": "a0R4a000000WeHLEA0",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-05",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDate": "2021-10-29",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.6859924,
                 "lat": -36.9076512
@@ -13996,7 +14096,7 @@
                 "locationID": "a0R4a000000Tm4OEAS",
                 "dhbRegion": "West Coast",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.963440563,
                 "lat": -42.718255122
@@ -14116,7 +14216,7 @@
                 "locationID": "a0R4a000000QwlrEAC",
                 "dhbRegion": "West Coast",
                 "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 169.0418711,
                 "lat": -43.8817843
@@ -14156,7 +14256,7 @@
                 "locationID": "a0R4a000000S8KjEAK",
                 "dhbRegion": "Whanganui",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.280856458,
                 "lat": -39.427415505
@@ -14336,7 +14436,7 @@
                 "locationID": "a0R4a000000S8KUEA0",
                 "dhbRegion": "Whanganui",
                 "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.5671404,
                 "lat": -39.9361246
@@ -14484,7 +14584,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-10-26T23:00:18.899Z",
+        "createdAt": "2021-10-27T00:00:33.316Z",
         "failedRows": 0
     }
 }
