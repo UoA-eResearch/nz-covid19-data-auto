@@ -3215,9 +3215,9 @@
                 "location": "Rolleston Medical Centre",
                 "locationID": "a0R4a000000SP7TEAW",
                 "dhbRegion": "Canterbury",
-                "availabilityDate": "2021-11-04",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "availabilityDate": "2021-11-19",
+                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
                 "lng": 172.375490579,
                 "lat": -43.594701259
             }
@@ -3235,7 +3235,7 @@
                 "location": "Unichem Rolleston Central Pharmacy",
                 "locationID": "a0R4a000000Pd7NEAS",
                 "dhbRegion": "Canterbury",
-                "availabilityDate": "2021-11-02",
+                "availabilityDate": "2021-11-04",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.3881549,
@@ -8395,31 +8395,11 @@
                 "location": "Aspiring Medical Centre - Wanaka Community Hub",
                 "locationID": "a0R4a000000QVPzEAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-03",
+                "availabilityDate": "2021-11-06",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 169.1299194,
                 "lat": -44.7008793
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    169.136483,
-                    -44.709425
-                ]
-            },
-            "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
-                "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-02",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 169.136483,
-                "lat": -44.709425
             }
         },
         {
@@ -8437,6 +8417,26 @@
                 "dhbRegion": "Southern",
                 "availabilityDate": "2021-11-27",
                 "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": false,
+                "lng": 169.136483,
+                "lat": -44.709425
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    169.136483,
+                    -44.709425
+                ]
+            },
+            "properties": {
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
+                "dhbRegion": "Southern",
+                "availabilityDate": "2021-11-02",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 169.136483,
                 "lat": -44.709425
@@ -11175,7 +11175,7 @@
                 "location": "MountainView Pharmacy",
                 "locationID": "a0R4a000000UPUTEA4",
                 "dhbRegion": "Taranaki",
-                "availabilityDate": "2021-11-04",
+                "availabilityDate": "2021-11-02",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.280339367,
@@ -11235,8 +11235,8 @@
                 "location": "Coromandel Family Health Centre",
                 "locationID": "a0R4a000000SOnsEAG",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-04",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "availabilityDate": "2021-11-11",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 175.497945572,
                 "lat": -36.759470463
@@ -12575,7 +12575,7 @@
                 "location": "Unichem Snells Beach Pharmacy",
                 "locationID": "a0R4a000000XQTFEA4",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-08",
+                "availabilityDate": "2021-11-02",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.727601369,
@@ -12635,7 +12635,7 @@
                 "location": "Orewa Vaccination Centre",
                 "locationID": "a0R4a000000UjYtEAK",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-03",
+                "availabilityDate": "2021-11-02",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6937519,
@@ -14564,7 +14564,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-01T05:00:17.227Z",
+        "createdAt": "2021-11-01T06:00:22.477Z",
         "failedRows": 0
     }
 }
