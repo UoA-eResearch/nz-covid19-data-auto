@@ -175,8 +175,8 @@
                 "location": "Ostend Medical Centre",
                 "locationID": "a0R4a000000W3uDEAS",
                 "dhbRegion": "Auckland",
-                "availabilityDate": "2021-11-05",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "availabilityDate": "2021-11-12",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 175.044932621,
                 "lat": -36.795638183
@@ -195,8 +195,8 @@
                 "location": "Medplus Lake Road",
                 "locationID": "a0R4a000000Tc5UEAS",
                 "dhbRegion": "Auckland",
-                "availabilityDate": "2021-11-05",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "availabilityDate": "2021-11-12",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.779169531,
                 "lat": -36.796847125
@@ -875,7 +875,7 @@
                 "location": "Rosebank Road Medical Services",
                 "locationID": "a0R4a000000TbSUEA0",
                 "dhbRegion": "Auckland",
-                "availabilityDate": "2021-11-03",
+                "availabilityDate": "2021-11-05",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6968088,
@@ -3597,7 +3597,7 @@
                 "dhbRegion": "Capital and Coast",
                 "availabilityDate": "2021-11-03",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 174.866719,
                 "lat": -41.099334
             }
@@ -5455,7 +5455,7 @@
                 "location": "Family Health Pharmacy Tuakau",
                 "locationID": "a0R4a000000VsCMEA0",
                 "dhbRegion": "Counties Manukau",
-                "availabilityDate": "2021-11-05",
+                "availabilityDate": "2021-11-03",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.946667785,
@@ -5540,6 +5540,46 @@
                 "adhoc": true,
                 "lng": 176.8815918,
                 "lat": -39.477387287
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.896633722,
+                    -39.483585011
+                ]
+            },
+            "properties": {
+                "location": "The Doctors Ahuriri",
+                "locationID": "a0R4a000000YRRKEA4",
+                "dhbRegion": "Hawke\u2019s Bay",
+                "availabilityDate": "2021-11-09",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 176.896633722,
+                "lat": -39.483585011
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.915167443,
+                    -39.493260849
+                ]
+            },
+            "properties": {
+                "location": "The Doctors Napier",
+                "locationID": "a0R4a000000YRUEEA4",
+                "dhbRegion": "Hawke\u2019s Bay",
+                "availabilityDate": "2021-12-01",
+                "availabilityDateFlag": "TWENTYNINE_OR_MORE",
+                "adhoc": true,
+                "lng": 176.915167443,
+                "lat": -39.493260849
             }
         },
         {
@@ -6207,19 +6247,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    175.067066408,
-                    -41.126492901
+                    175.5827,
+                    -41.12557
                 ]
             },
             "properties": {
-                "location": "Riverstone Recreation Hall at Whirinaki (Temporary Unichem Upper Hutt site)",
+                "location": "Unichem Upper Hutt Pharmacy",
                 "locationID": "a0R4a000000SzAKEA0",
                 "dhbRegion": "Hutt",
                 "availabilityDate": "2021-11-03",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
-                "lng": 175.067066408,
-                "lat": -41.126492901
+                "lng": 175.5827,
+                "lat": -41.12557
             }
         },
         {
@@ -8432,12 +8472,12 @@
                 ]
             },
             "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
+                "location": "Aspiring Medical Centre - Wanaka Lakes Health Centre",
+                "locationID": "a0R4a000000SPVuEAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-03",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "availabilityDate": "2021-11-27",
+                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
                 "lng": 169.136483,
                 "lat": -44.709425
             }
@@ -8452,12 +8492,12 @@
                 ]
             },
             "properties": {
-                "location": "Aspiring Medical Centre - Wanaka Lakes Health Centre",
-                "locationID": "a0R4a000000SPVuEAO",
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-12-04",
-                "availabilityDateFlag": "TWENTYNINE_OR_MORE",
-                "adhoc": true,
+                "availabilityDate": "2021-11-03",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 169.136483,
                 "lat": -44.709425
             }
@@ -12175,8 +12215,8 @@
                 "location": "Cambridge Medical Centre",
                 "locationID": "a0R4a000000ST9IEAW",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "availabilityDate": "2021-11-03",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.465829174,
                 "lat": -37.893648534
@@ -13415,7 +13455,7 @@
                 "location": "Life Pharmacy NorthWest",
                 "locationID": "a0R4a000000VSvpEAG",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-06",
+                "availabilityDate": "2021-11-03",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6094733,
@@ -14564,7 +14604,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-02T01:00:20.334Z",
+        "createdAt": "2021-11-02T02:00:23.239Z",
         "failedRows": 0
     }
 }
