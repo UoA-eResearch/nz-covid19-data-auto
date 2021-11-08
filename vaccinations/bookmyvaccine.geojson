@@ -2717,7 +2717,7 @@
                 "dhbRegion": "Canterbury",
                 "availabilityDate": "2021-11-09",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 172.6331642,
                 "lat": -43.5379663
             }
@@ -4255,7 +4255,7 @@
                 "location": "Unichem Main Street Pharmacy Howick",
                 "locationID": "a0R4a000000VAmaEAG",
                 "dhbRegion": "Counties Manukau",
-                "availabilityDate": "2021-11-10",
+                "availabilityDate": "2021-11-09",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.9305203,
@@ -4815,7 +4815,7 @@
                 "location": "Unichem Mangere Pharmacy",
                 "locationID": "a0R4a000000Xn29EAC",
                 "dhbRegion": "Counties Manukau",
-                "availabilityDate": "2021-11-10",
+                "availabilityDate": "2021-11-09",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.798281669,
@@ -5157,7 +5157,7 @@
                 "dhbRegion": "Counties Manukau",
                 "availabilityDate": "2021-11-09",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.868048812,
                 "lat": -37.032913267
             }
@@ -5735,7 +5735,7 @@
                 "location": "Unichem Pharmacy Greenmeadows",
                 "locationID": "a0R4a000000V1EfEAK",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "availabilityDate": "2021-11-11",
+                "availabilityDate": "2021-11-10",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8685821,
@@ -6755,7 +6755,7 @@
                 "location": "Mainstreet Pharmacy Taupo",
                 "locationID": "a0R4a000000UM0TEAW",
                 "dhbRegion": "Lakes",
-                "availabilityDate": "2021-11-09",
+                "availabilityDate": "2021-11-11",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.069598169,
@@ -7155,8 +7155,8 @@
                 "location": "Golden Bay Pharmacy",
                 "locationID": "a0R4a000000SLofEAG",
                 "dhbRegion": "Nelson Marlborough",
-                "availabilityDate": "2021-11-23",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "availabilityDate": "2021-11-09",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.805977464,
                 "lat": -40.859772511
@@ -8432,12 +8432,12 @@
                 ]
             },
             "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
+                "location": "Aspiring Medical Centre",
+                "locationID": "a0R4a000000SPVuEAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-10",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "availabilityDate": "2021-11-27",
+                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
                 "lng": 169.136483,
                 "lat": -44.709425
             }
@@ -8452,12 +8452,12 @@
                 ]
             },
             "properties": {
-                "location": "Aspiring Medical Centre",
-                "locationID": "a0R4a000000SPVuEAO",
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-27",
-                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
-                "adhoc": true,
+                "availabilityDate": "2021-11-10",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 169.136483,
                 "lat": -44.709425
             }
@@ -13867,6 +13867,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.6566027,
+                    -36.9379098
+                ]
+            },
+            "properties": {
+                "location": "Titirangi Village Pharmacy",
+                "locationID": "a0R4a000000WO0EEAW",
+                "dhbRegion": "Waitemata",
+                "availabilityDate": "2021-11-09",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 174.6566027,
+                "lat": -36.9379098
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.88757194,
                     -37.027792093
                 ]
@@ -13900,6 +13920,26 @@
                 "adhoc": false,
                 "lng": 172.1290932,
                 "lat": -41.2516121
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    171.8802979,
+                    -41.603396
+                ]
+            },
+            "properties": {
+                "location": "Ngakawau Vaccination Clinic",
+                "locationID": "a0R4a000000Qwi1EAC",
+                "dhbRegion": "West Coast",
+                "availabilityDate": "2021-11-15",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 171.8802979,
+                "lat": -41.603396
             }
         },
         {
@@ -14324,7 +14364,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-08T01:00:15.908Z",
+        "createdAt": "2021-11-08T02:00:30.371Z",
         "failedRows": 0
     }
 }
