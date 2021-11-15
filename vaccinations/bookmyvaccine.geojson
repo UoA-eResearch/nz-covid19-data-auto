@@ -3677,7 +3677,7 @@
                 "dhbRegion": "Capital and Coast",
                 "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 174.8414292,
                 "lat": -41.1348878
             }
@@ -6115,7 +6115,7 @@
                 "location": "Tuki Tuki Medical Ltd",
                 "locationID": "a0R4a000000UUJZEA4",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "availabilityDate": "2021-11-20",
+                "availabilityDate": "2021-11-21",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.549272568,
@@ -8335,31 +8335,11 @@
                 "location": "Aspiring Medical Centre - Wanaka Community Hub",
                 "locationID": "a0R4a000000QVPzEAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-17",
+                "availabilityDate": "2021-11-20",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.1299194,
                 "lat": -44.7008793
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    169.136483,
-                    -44.709425
-                ]
-            },
-            "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
-                "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-17",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 169.136483,
-                "lat": -44.709425
             }
         },
         {
@@ -8378,6 +8358,26 @@
                 "availabilityDate": "2021-11-27",
                 "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
+                "lng": 169.136483,
+                "lat": -44.709425
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    169.136483,
+                    -44.709425
+                ]
+            },
+            "properties": {
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
+                "dhbRegion": "Southern",
+                "availabilityDate": "2021-11-17",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 169.136483,
                 "lat": -44.709425
             }
@@ -10935,7 +10935,7 @@
                 "location": "Tairua-Pauanui Pharmacy",
                 "locationID": "a0R4a000000TH05EAG",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-19",
+                "availabilityDate": "2021-11-18",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.848902,
@@ -11372,8 +11372,8 @@
                 ]
             },
             "properties": {
-                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
-                "locationID": "a0R4a000000RyGnEAK",
+                "location": "West Hamilton Pharmacy",
+                "locationID": "a0R4a000000SkqUEAS",
                 "dhbRegion": "Waikato",
                 "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
@@ -11392,8 +11392,8 @@
                 ]
             },
             "properties": {
-                "location": "West Hamilton Pharmacy",
-                "locationID": "a0R4a000000SkqUEAS",
+                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
+                "locationID": "a0R4a000000RyGnEAK",
                 "dhbRegion": "Waikato",
                 "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
@@ -11712,12 +11712,12 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Family Health Cambridge - Walk-In",
-                "locationID": "a0R4a000000YSR4EAO",
+                "location": "Unichem Family Health Cambridge",
+                "locationID": "a0R4a000000SEWpEAO",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-21",
+                "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 175.4538267,
                 "lat": -37.8893764
             }
@@ -11732,12 +11732,12 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Family Health Cambridge",
-                "locationID": "a0R4a000000SEWpEAO",
+                "location": "Unichem Family Health Cambridge - Walk-In",
+                "locationID": "a0R4a000000YSR4EAO",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-17",
+                "availabilityDate": "2021-11-21",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 175.4538267,
                 "lat": -37.8893764
             }
@@ -14104,7 +14104,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-15T21:00:21.701Z",
+        "createdAt": "2021-11-15T22:00:19.209Z",
         "failedRows": 0
     }
 }
