@@ -1377,7 +1377,7 @@
                 "dhbRegion": "Auckland",
                 "availabilityDate": "2021-11-22",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.6995895,
                 "lat": -36.9224204
             }
@@ -4007,6 +4007,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.778032538,
+                    -41.311246218
+                ]
+            },
+            "properties": {
+                "location": "Newtown Union Health Service and Community",
+                "locationID": "a0R4a000000Su3dEAC",
+                "dhbRegion": "Capital and Coast",
+                "availabilityDate": "2021-12-07",
+                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
+                "lng": 174.778032538,
+                "lat": -41.311246218
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.77906773,
                     -41.311260663
                 ]
@@ -4817,7 +4837,7 @@
                 "dhbRegion": "Counties Manukau",
                 "availabilityDate": "2021-11-23",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.8556631,
                 "lat": -36.9796304
             }
@@ -6675,7 +6695,7 @@
                 "location": "Pihanga Health",
                 "locationID": "a0R4a000000Stp2EAC",
                 "dhbRegion": "Lakes",
-                "availabilityDate": "2021-11-18",
+                "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.807981269,
@@ -8295,31 +8315,11 @@
                 "location": "Aspiring Medical Centre - Wanaka Community Hub",
                 "locationID": "a0R4a000000QVPzEAO",
                 "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-20",
+                "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.1299194,
                 "lat": -44.7008793
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    169.136483,
-                    -44.709425
-                ]
-            },
-            "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
-                "dhbRegion": "Southern",
-                "availabilityDate": "2021-11-17",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 169.136483,
-                "lat": -44.709425
             }
         },
         {
@@ -8338,6 +8338,26 @@
                 "availabilityDate": "2021-11-27",
                 "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
+                "lng": 169.136483,
+                "lat": -44.709425
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    169.136483,
+                    -44.709425
+                ]
+            },
+            "properties": {
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
+                "dhbRegion": "Southern",
+                "availabilityDate": "2021-11-17",
+                "availabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 169.136483,
                 "lat": -44.709425
             }
@@ -10295,7 +10315,7 @@
                 "location": "Pharmacy @ Bell Block",
                 "locationID": "a0R4a000000UPXsEAO",
                 "dhbRegion": "Taranaki",
-                "availabilityDate": "2021-11-18",
+                "availabilityDate": "2021-11-19",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.14959134,
@@ -10855,7 +10875,7 @@
                 "location": "Mercury Bay Medical Centre",
                 "locationID": "a0R4a000000Syg7EAC",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-17",
+                "availabilityDate": "2021-11-18",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.704764484,
@@ -11675,9 +11695,9 @@
                 "location": "Unichem Family Health Cambridge - Walk-In",
                 "locationID": "a0R4a000000YSR4EAO",
                 "dhbRegion": "Waikato",
-                "availabilityDate": "2021-11-21",
+                "availabilityDate": "2021-11-17",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 175.4538267,
                 "lat": -37.8893764
             }
@@ -12277,7 +12297,7 @@
                 "dhbRegion": "Waitemata",
                 "availabilityDate": "2021-11-19",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.7397605,
                 "lat": -36.6347224
             }
@@ -14084,7 +14104,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-16T00:00:18.574Z",
+        "createdAt": "2021-11-16T01:00:14.236Z",
         "failedRows": 0
     }
 }
