@@ -4297,7 +4297,7 @@
                 "dhbRegion": "Counties Manukau",
                 "availabilityDate": "2021-11-19",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.907876976,
                 "lat": -36.899746335
             }
@@ -5097,7 +5097,7 @@
                 "dhbRegion": "Counties Manukau",
                 "availabilityDate": "2021-11-18",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.868048812,
                 "lat": -37.032913267
             }
@@ -11327,6 +11327,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    175.27415584,
+                    -37.782712216
+                ]
+            },
+            "properties": {
+                "location": "Needle Exchange \u2013 Waikato Services",
+                "locationID": "a0R4a000000ZaUyEAK",
+                "dhbRegion": "Waikato",
+                "availabilityDate": "2021-12-08",
+                "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
+                "lng": 175.27415584,
+                "lat": -37.782712216
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     175.273320325,
                     -37.783588853
                 ]
@@ -13075,7 +13095,7 @@
                 "location": "Peninsula Medical Centre",
                 "locationID": "a0R4a000000WDHqEAO",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-19",
+                "availabilityDate": "2021-11-18",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6510915,
@@ -14024,7 +14044,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-17T01:00:27.878Z",
+        "createdAt": "2021-11-17T02:00:25.603Z",
         "failedRows": 0
     }
 }
