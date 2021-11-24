@@ -5075,9 +5075,9 @@
                 "location": "Clendon Discount Pharmacy",
                 "locationID": "a0R4a000000WnDNEA0",
                 "dhbRegion": "Counties Manukau",
-                "availabilityDate": "2021-11-26",
+                "availabilityDate": "2021-11-25",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.868048812,
                 "lat": -37.032913267
             }
@@ -7715,9 +7715,9 @@
                 "location": "Unichem Orr's Pharmacy Kaikohe",
                 "locationID": "a0R4a000000XS19EAG",
                 "dhbRegion": "Northland",
-                "availabilityDate": "2021-11-25",
-                "availabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "availabilityDate": "2021-12-02",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "adhoc": true,
                 "lng": 173.804618116,
                 "lat": -35.405008042
             }
@@ -8175,7 +8175,7 @@
                 "location": "Timaru COVID Vaccine Community Clinic",
                 "locationID": "a0R4a000000Qf41EAC",
                 "dhbRegion": "South Canterbury",
-                "availabilityDate": "2021-12-13",
+                "availabilityDate": "2021-12-09",
                 "availabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": true,
                 "lng": 171.2549653,
@@ -12975,7 +12975,7 @@
                 "location": "Royal Heights Pharmacy",
                 "locationID": "a0R4a000000VAraEAG",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-25",
+                "availabilityDate": "2021-11-26",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.622970353,
@@ -13075,7 +13075,7 @@
                 "location": "Life Pharmacy Eastridge",
                 "locationID": "a0R4a000000Tqm3EAC",
                 "dhbRegion": "Waitemata",
-                "availabilityDate": "2021-11-26",
+                "availabilityDate": "2021-11-25",
                 "availabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.829857288,
@@ -13667,6 +13667,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    170.3618254,
+                    -43.2623384
+                ]
+            },
+            "properties": {
+                "location": "Whataroa Vaccination Centre",
+                "locationID": "a0R4a000000QwjSEAS",
+                "dhbRegion": "West Coast",
+                "availabilityDate": "2021-12-06",
+                "availabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "adhoc": true,
+                "lng": 170.3618254,
+                "lat": -43.2623384
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     170.18685,
                     -43.3822072
                 ]
@@ -14004,7 +14024,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-24T06:00:13.990Z",
+        "createdAt": "2021-11-24T07:00:13.125Z",
         "failedRows": 0
     }
 }
