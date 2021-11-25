@@ -915,9 +915,9 @@
                 "location": "Harris Road Pharmacy",
                 "locationID": "a0R4a000000YdDfEAK",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-17",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
-                "adhoc": true,
+                "pfizerAvailabilityDate": "2021-11-26",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 174.832388785,
                 "lat": -36.896308301
             }
@@ -11707,6 +11707,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    175.263625069,
+                    -38.883196007
+                ]
+            },
+            "properties": {
+                "location": "Unichem Taumarunui Pharmacy",
+                "locationID": "a0R4a000000a2eAEAQ",
+                "dhbRegion": "Waikato",
+                "pfizerAvailabilityDate": "2021-11-26",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 175.263625069,
+                "lat": -38.883196007
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     175.6624774,
                     -40.9483496
                 ]
@@ -13924,7 +13944,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-11-25T05:00:22.933Z",
+        "createdAt": "2021-11-25T06:00:21.695Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer"
