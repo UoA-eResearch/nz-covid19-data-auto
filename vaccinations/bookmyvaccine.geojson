@@ -455,7 +455,7 @@
                 "location": "Eastmed Doctors",
                 "locationID": "a0R4a000000Uw0TEAS",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-02",
+                "pfizerAvailabilityDate": "2021-12-03",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.858799642,
@@ -2335,7 +2335,7 @@
                 "location": "100D Orchard Rd - DHB - AstraZeneca Clinic",
                 "locationID": "a0R4a000000ZoCqEAK",
                 "dhbRegion": "Canterbury",
-                "astrazenecaAvailabilityDate": "2021-12-04",
+                "astrazenecaAvailabilityDate": "2021-12-03",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.5532021,
@@ -2835,8 +2835,8 @@
                 "location": "M\u0101ui Clinic @ South City - AstraZeneca Clinic",
                 "locationID": "a0R4a000000T480EAC",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-12",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "astrazenecaAvailabilityDate": "2021-12-06",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 172.635353,
                 "lat": -43.5379715
@@ -2935,7 +2935,7 @@
                 "location": "Addington Pharmacy",
                 "locationID": "a0R4a000000P74DEAS",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-02",
+                "pfizerAvailabilityDate": "2021-12-03",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 172.613989551,
@@ -3555,8 +3555,8 @@
                 "location": "Waikanae Health - Marae Lane",
                 "locationID": "a0R4a000000XFmnEAG",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2021-12-08",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-15",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 175.06330736,
                 "lat": -40.876508043
@@ -5815,31 +5815,11 @@
                 "location": "Taradale Club Vaccination Centre",
                 "locationID": "a0R4a000000PvP1EAK",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-08",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-08",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.857556212,
                 "lat": -39.516205916
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    176.901130211,
-                    -39.520529827
-                ]
-            },
-            "properties": {
-                "location": "Maraenui Kings House Church",
-                "locationID": "a0R4a000000S1tLEAS",
-                "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-02",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
-                "lng": 176.901130211,
-                "lat": -39.520529827
             }
         },
         {
@@ -8532,10 +8512,10 @@
                 ]
             },
             "properties": {
-                "location": "Aspiring Medical Centre",
-                "locationID": "a0R4a000000SPVuEAO",
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2021-12-02",
+                "pfizerAvailabilityDate": "2021-12-08",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.136483,
@@ -8552,10 +8532,10 @@
                 ]
             },
             "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
+                "location": "Aspiring Medical Centre",
+                "locationID": "a0R4a000000SPVuEAO",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2021-12-08",
+                "pfizerAvailabilityDate": "2021-12-02",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.136483,
@@ -8700,6 +8680,26 @@
                 "adhoc": true,
                 "lng": 168.7433382,
                 "lat": -45.0131319
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    168.731508382,
+                    -45.015989283
+                ]
+            },
+            "properties": {
+                "location": "Unichem Summerfields Pharmacy",
+                "locationID": "a0R4a000000T7atEAC",
+                "dhbRegion": "Southern",
+                "pfizerAvailabilityDate": "2021-12-16",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
+                "lng": 168.731508382,
+                "lat": -45.015989283
             }
         },
         {
@@ -11572,8 +11572,8 @@
                 ]
             },
             "properties": {
-                "location": "West Hamilton Pharmacy",
-                "locationID": "a0R4a000000SkqUEAS",
+                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
+                "locationID": "a0R4a000000RyGnEAK",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2021-12-02",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
@@ -11592,8 +11592,8 @@
                 ]
             },
             "properties": {
-                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
-                "locationID": "a0R4a000000RyGnEAK",
+                "location": "West Hamilton Pharmacy",
+                "locationID": "a0R4a000000SkqUEAS",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2021-12-02",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
@@ -13755,7 +13755,7 @@
                 "location": "Waitakere i-Medical Centre",
                 "locationID": "a0R4a000000YYdoEAG",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2021-12-02",
+                "pfizerAvailabilityDate": "2021-12-06",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.632843198,
@@ -14624,7 +14624,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-01T01:00:15.403Z",
+        "createdAt": "2021-12-01T02:00:17.700Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
