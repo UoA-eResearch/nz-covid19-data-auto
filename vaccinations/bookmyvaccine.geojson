@@ -895,7 +895,7 @@
                 "location": "Rosebank Road Medical Services",
                 "locationID": "a0R4a000000TbSUEA0",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-03",
+                "pfizerAvailabilityDate": "2021-12-02",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6968088,
@@ -2835,8 +2835,8 @@
                 "location": "M\u0101ui Clinic @ South City - AstraZeneca Clinic",
                 "locationID": "a0R4a000000T480EAC",
                 "dhbRegion": "Canterbury",
-                "astrazenecaAvailabilityDate": "2021-12-06",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-12",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 172.635353,
                 "lat": -43.5379715
@@ -5837,7 +5837,7 @@
                 "dhbRegion": "Hawke\u2019s Bay",
                 "pfizerAvailabilityDate": "2021-12-02",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 176.8685821,
                 "lat": -39.5231359
             }
@@ -6075,8 +6075,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-02",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-02",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -7035,7 +7035,7 @@
                 "location": "Cook St Pharmacy",
                 "locationID": "a0R4a000000SvJaEAK",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2021-12-02",
+                "pfizerAvailabilityDate": "2021-12-03",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.60694217,
@@ -7895,7 +7895,7 @@
                 "location": "Far North Pharmacy",
                 "locationID": "a0R4a000000UOukEAG",
                 "dhbRegion": "Northland",
-                "pfizerAvailabilityDate": "2021-12-02",
+                "pfizerAvailabilityDate": "2021-12-08",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.264734,
@@ -10515,7 +10515,7 @@
                 "location": "Pharmacy @ Bell Block",
                 "locationID": "a0R4a000000UPXsEAO",
                 "dhbRegion": "Taranaki",
-                "pfizerAvailabilityDate": "2021-12-03",
+                "pfizerAvailabilityDate": "2021-12-06",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.14959134,
@@ -11807,6 +11807,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    175.247015998,
+                    -37.796371835
+                ]
+            },
+            "properties": {
+                "location": "Westend Health Centre",
+                "locationID": "a0R4a000000aYIEEA2",
+                "dhbRegion": "Waikato",
+                "pfizerAvailabilityDate": "2021-12-14",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "adhoc": true,
+                "lng": 175.247015998,
+                "lat": -37.796371835
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     175.316513698,
                     -37.798943433
                 ]
@@ -12077,7 +12097,7 @@
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2021-12-02",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 175.210668996,
                 "lat": -38.183494279
             }
@@ -14644,7 +14664,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-01T04:00:26.414Z",
+        "createdAt": "2021-12-01T05:00:23.314Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
