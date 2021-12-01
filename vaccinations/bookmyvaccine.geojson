@@ -97,7 +97,7 @@
                 "dhbRegion": "Auckland",
                 "pfizerAvailabilityDate": "2021-12-03",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.740871334,
                 "lat": -36.759409751
             }
@@ -575,8 +575,8 @@
                 "location": "Auckland Family Medical Centre",
                 "locationID": "a0R4a000000XKRMEA4",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-06",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-10",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 174.781668918,
                 "lat": -36.872799631
@@ -2935,8 +2935,8 @@
                 "location": "Addington Pharmacy",
                 "locationID": "a0R4a000000P74DEAS",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-03",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-13",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 172.613989551,
                 "lat": -43.542404045
@@ -4907,6 +4907,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.7832309,
+                    -36.969764
+                ]
+            },
+            "properties": {
+                "location": "Local Doctors Airport Oaks",
+                "locationID": "a0R4a000000QD1NEAW",
+                "dhbRegion": "Counties Manukau",
+                "pfizerAvailabilityDate": "2021-12-07",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 174.7832309,
+                "lat": -36.969764
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.7987954,
                     -36.9697877
                 ]
@@ -5835,8 +5855,8 @@
                 "location": "Taradale Club Vaccination Centre",
                 "locationID": "a0R4a000000PvP1EAK",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-08",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-08",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.857556212,
                 "lat": -39.516205916
@@ -6987,6 +7007,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    175.619373927,
+                    -40.355861841
+                ]
+            },
+            "properties": {
+                "location": "Unichem The Palms Pharmacy",
+                "locationID": "a0R4a000000WnE1EAK",
+                "dhbRegion": "MidCentral",
+                "pfizerAvailabilityDate": "2021-12-03",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 175.619373927,
+                "lat": -40.355861841
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     175.6124109,
                     -40.3582214
                 ]
@@ -7035,8 +7075,8 @@
                 "location": "Cook St Pharmacy",
                 "locationID": "a0R4a000000SvJaEAK",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2021-12-03",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-10",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": true,
                 "lng": 175.60694217,
                 "lat": -40.366065133
@@ -7540,26 +7580,6 @@
                 "adhoc": true,
                 "lng": 173.2358,
                 "lat": -41.31014
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    173.234025112,
-                    -41.312104949
-                ]
-            },
-            "properties": {
-                "location": "Unichem Hurst and Taylor Pharmacy",
-                "locationID": "a0R4a000000UCbrEAG",
-                "dhbRegion": "Nelson Marlborough",
-                "pfizerAvailabilityDate": "2021-12-10",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": true,
-                "lng": 173.234025112,
-                "lat": -41.312104949
             }
         },
         {
@@ -10280,26 +10300,6 @@
                 "adhoc": true,
                 "lng": 169.6647757,
                 "lat": -46.45032
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    178.047126073,
-                    -38.656272488
-                ]
-            },
-            "properties": {
-                "location": "Horouta Pharmacy",
-                "locationID": "a0R4a000000Uf2wEAC",
-                "dhbRegion": "Tairawhiti",
-                "pfizerAvailabilityDate": "2021-12-03",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 178.047126073,
-                "lat": -38.656272488
             }
         },
         {
@@ -14564,7 +14564,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-01T20:00:21.783Z",
+        "createdAt": "2021-12-01T21:00:20.714Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
