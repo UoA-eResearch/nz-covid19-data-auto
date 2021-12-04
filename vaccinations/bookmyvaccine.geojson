@@ -832,12 +832,12 @@
                 ]
             },
             "properties": {
-                "location": "Balmoral Pharmacy",
-                "locationID": "a0R4a000000TxyzEAC",
+                "location": "Balmoral Pharmacy - AstraZeneca",
+                "locationID": "a0R4a000000aHK3EAM",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-05",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "astrazenecaAvailabilityDate": "2021-12-12",
+                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "adhoc": true,
                 "lng": 174.7464843,
                 "lat": -36.8894746
             }
@@ -852,12 +852,12 @@
                 ]
             },
             "properties": {
-                "location": "Balmoral Pharmacy - AstraZeneca",
-                "locationID": "a0R4a000000aHK3EAM",
+                "location": "Balmoral Pharmacy",
+                "locationID": "a0R4a000000TxyzEAC",
                 "dhbRegion": "Auckland",
-                "astrazenecaAvailabilityDate": "2021-12-12",
-                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": true,
+                "pfizerAvailabilityDate": "2021-12-05",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 174.7464843,
                 "lat": -36.8894746
             }
@@ -2755,7 +2755,7 @@
                 "location": "M\u0101ui Clinic @ South City - AstraZeneca Clinic",
                 "locationID": "a0R4a000000T480EAC",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-05",
+                "pfizerAvailabilityDate": "2021-12-06",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 172.635353,
@@ -6035,8 +6035,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-09",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-09",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -14355,8 +14355,8 @@
                 "location": "Te Rito",
                 "locationID": "a0R4a000000QsKBEA0",
                 "dhbRegion": "Whanganui",
-                "pfizerAvailabilityDate": "2021-12-05",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-05",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.0533969,
                 "lat": -39.9334897
@@ -14444,7 +14444,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-04T07:00:44.423Z",
+        "createdAt": "2021-12-04T08:00:34.757Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
