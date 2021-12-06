@@ -257,7 +257,7 @@
                 "dhbRegion": "Auckland",
                 "pfizerAvailabilityDate": "2021-12-07",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.774350069,
                 "lat": -36.847645751
             }
@@ -1215,7 +1215,7 @@
                 "location": "Stoddard Rd Local Doctors",
                 "locationID": "a0R4a000000TzZyEAK",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-10",
+                "pfizerAvailabilityDate": "2021-12-09",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.734103,
@@ -4155,7 +4155,7 @@
                 "location": "Newtown Mall Unichem Pharmacy",
                 "locationID": "a0R4a000000T3EMEA0",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2021-12-08",
+                "pfizerAvailabilityDate": "2021-12-09",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.77906773,
@@ -6095,8 +6095,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-09",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-09",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -6935,7 +6935,7 @@
                 "location": "Unichem Terrace End Pharmacy",
                 "locationID": "a0R4a000000TZO8EAO",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2021-12-07",
+                "pfizerAvailabilityDate": "2021-12-08",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.6262994,
@@ -13675,7 +13675,7 @@
                 "location": "Waitakere i-Medical Centre",
                 "locationID": "a0R4a000000YYdoEAG",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2021-12-07",
+                "pfizerAvailabilityDate": "2021-12-08",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.632843198,
@@ -13955,7 +13955,7 @@
                 "location": "Unichem Onehunga Mainstreet Pharmacy",
                 "locationID": "a0R4a000000TqJDEA0",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2021-12-07",
+                "pfizerAvailabilityDate": "2021-12-08",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.785800624,
@@ -14435,8 +14435,8 @@
                 "location": "Te Rito",
                 "locationID": "a0R4a000000QsKBEA0",
                 "dhbRegion": "Whanganui",
-                "astrazenecaAvailabilityDate": "2021-12-07",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-07",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.0533969,
                 "lat": -39.9334897
@@ -14524,11 +14524,11 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-06T05:00:39.709Z",
+        "createdAt": "2021-12-06T06:00:41.368Z",
         "failedRows": 0,
         "vaccineTypes": [
-            "Pfizer",
-            "AstraZeneca"
+            "AstraZeneca",
+            "Pfizer"
         ]
     }
 }
