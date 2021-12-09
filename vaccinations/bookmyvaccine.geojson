@@ -615,7 +615,7 @@
                 "location": "Auckland Family Medical Centre",
                 "locationID": "a0R4a000000XKRMEA4",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-10",
+                "pfizerAvailabilityDate": "2021-12-16",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.781668918,
@@ -3215,7 +3215,7 @@
                 "location": "Unichem Rolleston Central Pharmacy",
                 "locationID": "a0R4a000000Pd7NEAS",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-10",
+                "pfizerAvailabilityDate": "2021-12-13",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 172.3881549,
@@ -4755,7 +4755,7 @@
                 "location": "Turuki Health Care - M\u0101ngere",
                 "locationID": "a0R4a000000Te9kEAC",
                 "dhbRegion": "Counties Manukau",
-                "pfizerAvailabilityDate": "2021-12-12",
+                "pfizerAvailabilityDate": "2021-12-10",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.803365449,
@@ -5635,7 +5635,7 @@
                 "location": "The Doctors Napier",
                 "locationID": "a0R4a000000YRUEEA4",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-13",
+                "pfizerAvailabilityDate": "2021-12-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.915167443,
@@ -5995,8 +5995,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-16",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-16",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -6094,6 +6094,26 @@
             "properties": {
                 "location": "Waipawa Vaccination Centre",
                 "locationID": "a0R4a000000PvSyEAK",
+                "dhbRegion": "Hawke\u2019s Bay",
+                "pfizerAvailabilityDate": "2021-12-11",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 176.5802245,
+                "lat": -39.9436733
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    176.5802245,
+                    -39.9436733
+                ]
+            },
+            "properties": {
+                "location": "Waipawa Vaccination Centre - AstraZeneca",
+                "locationID": "a0R4a000000adWnEAI",
                 "dhbRegion": "Hawke\u2019s Bay",
                 "astrazenecaAvailabilityDate": "2021-12-11",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
@@ -11467,26 +11487,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.869087989,
-                    -37.799061039
-                ]
-            },
-            "properties": {
-                "location": "Raglan Medical",
-                "locationID": "a0R4a000000UR8SEAW",
-                "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2021-12-15",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
-                "lng": 174.869087989,
-                "lat": -37.799061039
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     175.281451046,
                     -37.802414418
                 ]
@@ -11755,9 +11755,9 @@
                 "location": "Tokoroa Whare Rongo\u0101 \u0100raimate Community Vaccination Centre - AstraZeneca",
                 "locationID": "a0R4a000000ZwQYEA0",
                 "dhbRegion": "Waikato",
-                "astrazenecaAvailabilityDate": "2021-12-17",
-                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": true,
+                "astrazenecaAvailabilityDate": "2021-12-10",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 175.87255184,
                 "lat": -38.217780061
             }
@@ -14264,7 +14264,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-09T06:00:43.719Z",
+        "createdAt": "2021-12-09T07:00:47.730Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
