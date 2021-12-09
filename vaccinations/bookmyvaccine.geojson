@@ -1072,11 +1072,11 @@
                 ]
             },
             "properties": {
-                "location": "Stoddard Road Medical Centre - AstraZeneca",
-                "locationID": "a0R4a000000aCX2EAM",
+                "location": "Stoddard Road Medical Centre",
+                "locationID": "a0R4a000000V68YEAS",
                 "dhbRegion": "Auckland",
-                "astrazenecaAvailabilityDate": "2021-12-15",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-13",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.721102369,
                 "lat": -36.900226915
@@ -1092,11 +1092,11 @@
                 ]
             },
             "properties": {
-                "location": "Stoddard Road Medical Centre",
-                "locationID": "a0R4a000000V68YEAS",
+                "location": "Stoddard Road Medical Centre - AstraZeneca",
+                "locationID": "a0R4a000000aCX2EAM",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-13",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-15",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.721102369,
                 "lat": -36.900226915
@@ -1355,9 +1355,9 @@
                 "location": "Unichem Richardson Road",
                 "locationID": "a0R4a000000Vv5GEAS",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-13",
+                "pfizerAvailabilityDate": "2021-12-11",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 174.727929009,
                 "lat": -36.9130026
             }
@@ -2755,8 +2755,8 @@
                 "location": "M\u0101ui Clinic @ South City - AstraZeneca Clinic",
                 "locationID": "a0R4a000000T480EAC",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-12",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-12",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 172.635353,
                 "lat": -43.5379715
@@ -2840,6 +2840,26 @@
                 "adhoc": true,
                 "lng": 172.629942015,
                 "lat": -43.540554772
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    172.613989551,
+                    -43.542404045
+                ]
+            },
+            "properties": {
+                "location": "Addington Pharmacy",
+                "locationID": "a0R4a000000P74DEAS",
+                "dhbRegion": "Canterbury",
+                "pfizerAvailabilityDate": "2021-12-13",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 172.613989551,
+                "lat": -43.542404045
             }
         },
         {
@@ -3592,12 +3612,12 @@
                 ]
             },
             "properties": {
-                "location": "Life Pharmacy Johnsonville - AstraZeneca",
-                "locationID": "a0R4a000000ZoMcEAK",
+                "location": "Life Pharmacy Johnsonville",
+                "locationID": "a0R4a000000VIOhEAO",
                 "dhbRegion": "Capital and Coast",
-                "astrazenecaAvailabilityDate": "2021-12-13",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "pfizerAvailabilityDate": "2021-12-11",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 174.8055197,
                 "lat": -41.2232691
             }
@@ -3612,12 +3632,12 @@
                 ]
             },
             "properties": {
-                "location": "Life Pharmacy Johnsonville",
-                "locationID": "a0R4a000000VIOhEAO",
+                "location": "Life Pharmacy Johnsonville - AstraZeneca",
+                "locationID": "a0R4a000000ZoMcEAK",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2021-12-11",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "astrazenecaAvailabilityDate": "2021-12-13",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
                 "lng": 174.8055197,
                 "lat": -41.2232691
             }
@@ -5855,8 +5875,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-16",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-16",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -6412,11 +6432,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem the Mall Pharmacy - AstraZeneca",
-                "locationID": "a0R4a000000ZoNyEAK",
+                "location": "Unichem the Mall Pharmacy",
+                "locationID": "a0R4a000000UjI2EAK",
                 "dhbRegion": "Lakes",
-                "astrazenecaAvailabilityDate": "2021-12-29",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2021-12-11",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.250419,
                 "lat": -38.1407502
@@ -6432,11 +6452,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem the Mall Pharmacy",
-                "locationID": "a0R4a000000UjI2EAK",
+                "location": "Unichem the Mall Pharmacy - AstraZeneca",
+                "locationID": "a0R4a000000ZoNyEAK",
                 "dhbRegion": "Lakes",
-                "pfizerAvailabilityDate": "2021-12-11",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-29",
+                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": true,
                 "lng": 176.250419,
                 "lat": -38.1407502
@@ -14024,7 +14044,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-09T22:00:50.533Z",
+        "createdAt": "2021-12-09T23:00:40.850Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
