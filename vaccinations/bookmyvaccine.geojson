@@ -2752,12 +2752,12 @@
                 ]
             },
             "properties": {
-                "location": "M\u0101ui Clinic @ South City - AstraZeneca Clinic",
-                "locationID": "a0R4a000000T480EAC",
+                "location": "M\u0101ui Clinic @ South City",
+                "locationID": "a0R4a000000UeS1EAK",
                 "dhbRegion": "Canterbury",
-                "astrazenecaAvailabilityDate": "2021-12-12",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "pfizerAvailabilityDate": "2021-12-11",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 172.635353,
                 "lat": -43.5379715
             }
@@ -2772,12 +2772,12 @@
                 ]
             },
             "properties": {
-                "location": "M\u0101ui Clinic @ South City",
-                "locationID": "a0R4a000000UeS1EAK",
+                "location": "M\u0101ui Clinic @ South City - AstraZeneca Clinic",
+                "locationID": "a0R4a000000T480EAC",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-11",
+                "pfizerAvailabilityDate": "2021-12-12",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 172.635353,
                 "lat": -43.5379715
             }
@@ -3680,6 +3680,26 @@
                 "adhoc": true,
                 "lng": 174.791994961,
                 "lat": -41.246733129
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.774347,
+                    -41.2618291
+                ]
+            },
+            "properties": {
+                "location": "Wadestown Medical Vaccinations",
+                "locationID": "a0R4a000000SUl3EAG",
+                "dhbRegion": "Capital and Coast",
+                "pfizerAvailabilityDate": "2021-12-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 174.774347,
+                "lat": -41.2618291
             }
         },
         {
@@ -5835,8 +5855,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-16",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-16",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -13984,7 +14004,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-09T19:00:53.613Z",
+        "createdAt": "2021-12-09T20:00:49.399Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
