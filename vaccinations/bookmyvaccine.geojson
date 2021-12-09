@@ -5855,8 +5855,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-16",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-16",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -6507,6 +6507,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    176.224660115,
+                    -38.153848121
+                ]
+            },
+            "properties": {
+                "location": "Vax Vegas at the Stadium",
+                "locationID": "a0R4a000000at7lEAA",
+                "dhbRegion": "Lakes",
+                "pfizerAvailabilityDate": "2021-12-18",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "adhoc": true,
+                "lng": 176.224660115,
+                "lat": -38.153848121
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     176.256923023,
                     -38.162712785
                 ]
@@ -6780,26 +6800,6 @@
                 "adhoc": true,
                 "lng": 175.618070438,
                 "lat": -40.350172228
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    175.619373927,
-                    -40.355861841
-                ]
-            },
-            "properties": {
-                "location": "Unichem The Palms Pharmacy",
-                "locationID": "a0R4a000000WnE1EAK",
-                "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2021-12-17",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": true,
-                "lng": 175.619373927,
-                "lat": -40.355861841
             }
         },
         {
@@ -8132,10 +8132,10 @@
                 ]
             },
             "properties": {
-                "location": "Wanaka Medical Centre",
-                "locationID": "a0R4a000000QVM7EAO",
+                "location": "Aspiring Medical Centre",
+                "locationID": "a0R4a000000SPVuEAO",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2021-12-11",
+                "pfizerAvailabilityDate": "2021-12-16",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.136483,
@@ -8152,10 +8152,10 @@
                 ]
             },
             "properties": {
-                "location": "Aspiring Medical Centre",
-                "locationID": "a0R4a000000SPVuEAO",
+                "location": "Wanaka Medical Centre",
+                "locationID": "a0R4a000000QVM7EAO",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2021-12-16",
+                "pfizerAvailabilityDate": "2021-12-11",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.136483,
@@ -10675,7 +10675,7 @@
                 "location": "Turangawaewae\u00a0Marae (Ng\u0101ruaw\u0101hia) Community Vaccination Centre",
                 "locationID": "a0R4a000000R8AbEAK",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2021-12-14",
+                "pfizerAvailabilityDate": "2021-12-11",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.15363,
@@ -10992,12 +10992,12 @@
                 ]
             },
             "properties": {
-                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
-                "locationID": "a0R4a000000RyGnEAK",
+                "location": "West Hamilton Pharmacy",
+                "locationID": "a0R4a000000SkqUEAS",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2021-12-11",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "adhoc": false,
                 "lng": 175.2373039,
                 "lat": -37.7812079
             }
@@ -11012,12 +11012,12 @@
                 ]
             },
             "properties": {
-                "location": "West Hamilton Pharmacy",
-                "locationID": "a0R4a000000SkqUEAS",
+                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
+                "locationID": "a0R4a000000RyGnEAK",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2021-12-11",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 175.2373039,
                 "lat": -37.7812079
             }
@@ -13915,8 +13915,8 @@
                 "location": "Te Rito",
                 "locationID": "a0R4a000000QsKBEA0",
                 "dhbRegion": "Whanganui",
-                "pfizerAvailabilityDate": "2021-12-11",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-11",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.0533969,
                 "lat": -39.9334897
@@ -14004,7 +14004,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-09T20:00:49.399Z",
+        "createdAt": "2021-12-09T21:00:52.703Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
