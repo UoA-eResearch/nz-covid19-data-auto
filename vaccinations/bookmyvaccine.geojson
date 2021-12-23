@@ -1155,7 +1155,7 @@
                 "location": "SaveMart Pharmacy",
                 "locationID": "a0R4a000000Vv6YEAS",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2021-12-29",
+                "pfizerAvailabilityDate": "2021-12-24",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.742434854,
@@ -1192,11 +1192,11 @@
                 ]
             },
             "properties": {
-                "location": "Mt Wellington Vaccination Centre",
-                "locationID": "a0R4a000000Q4qbEAC",
+                "location": "Mt Wellington Vaccination Centre - AstraZeneca",
+                "locationID": "a0R4a000000Zo7REAS",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-01-10",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "astrazenecaAvailabilityDate": "2022-01-10",
+                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.8223748,
                 "lat": -36.9070683
@@ -1212,11 +1212,11 @@
                 ]
             },
             "properties": {
-                "location": "Mt Wellington Vaccination Centre - AstraZeneca",
-                "locationID": "a0R4a000000Zo7REAS",
+                "location": "Mt Wellington Vaccination Centre",
+                "locationID": "a0R4a000000Q4qbEAC",
                 "dhbRegion": "Auckland",
-                "astrazenecaAvailabilityDate": "2022-01-10",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2022-01-10",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.8223748,
                 "lat": -36.9070683
@@ -1767,6 +1767,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.90025482,
+                    -37.200588103
+                ]
+            },
+            "properties": {
+                "location": "Pukekohe Family Health Care",
+                "locationID": "a0R4a000000TeSmEAK",
+                "dhbRegion": "Auckland",
+                "pfizerAvailabilityDate": "2022-01-20",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "adhoc": true,
+                "lng": 174.90025482,
+                "lat": -37.200588103
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     175.914671737,
                     -37.561298466
                 ]
@@ -2235,9 +2255,9 @@
                 "location": "Kaik\u014dura Healthcare",
                 "locationID": "a0R4a000000P71YEAS",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2021-12-29",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "pfizerAvailabilityDate": "2022-01-21",
+                "pfizerAvailabilityDateFlag": "TWENTYNINE_OR_MORE",
+                "adhoc": true,
                 "lng": 173.6808,
                 "lat": -42.4014
             }
@@ -3592,11 +3612,11 @@
                 ]
             },
             "properties": {
-                "location": "Porirua City - Lydney Place",
-                "locationID": "a0R4a000000QCunEAG",
+                "location": "Porirua City - Lydney Place - AstraZeneca",
+                "locationID": "a0R4a000000ZoFpEAK",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2021-12-24",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-27",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8414292,
                 "lat": -41.1348878
@@ -3612,11 +3632,11 @@
                 ]
             },
             "properties": {
-                "location": "Porirua City - Lydney Place - AstraZeneca",
-                "locationID": "a0R4a000000ZoFpEAK",
+                "location": "Porirua City - Lydney Place",
+                "locationID": "a0R4a000000QCunEAG",
                 "dhbRegion": "Capital and Coast",
-                "astrazenecaAvailabilityDate": "2021-12-27",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-24",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8414292,
                 "lat": -41.1348878
@@ -4552,11 +4572,11 @@
                 ]
             },
             "properties": {
-                "location": "Pacific Otara - AstraZeneca",
-                "locationID": "a0R4a000000Zo8AEAS",
+                "location": "Pacific Otara",
+                "locationID": "a0R4a000000OMJgEAO",
                 "dhbRegion": "Counties Manukau",
-                "astrazenecaAvailabilityDate": "2022-01-10",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2021-12-24",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8706227,
                 "lat": -36.9594182
@@ -4572,11 +4592,11 @@
                 ]
             },
             "properties": {
-                "location": "Pacific Otara",
-                "locationID": "a0R4a000000OMJgEAO",
+                "location": "Pacific Otara - AstraZeneca",
+                "locationID": "a0R4a000000Zo8AEAS",
                 "dhbRegion": "Counties Manukau",
-                "pfizerAvailabilityDate": "2021-12-24",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-01-10",
+                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.8706227,
                 "lat": -36.9594182
@@ -4675,8 +4695,8 @@
                 "location": "Ormiston Medical Centre - AstraZeneca",
                 "locationID": "a0R4a000000a6xoEAA",
                 "dhbRegion": "Counties Manukau",
-                "astrazenecaAvailabilityDate": "2022-01-11",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "astrazenecaAvailabilityDate": "2021-12-30",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.9128472,
                 "lat": -36.9662822
@@ -5712,11 +5732,11 @@
                 ]
             },
             "properties": {
-                "location": "Taradale Club Vaccination Centre - AstraZeneca",
-                "locationID": "a0R4a000000adSWEAY",
+                "location": "Taradale Club Vaccination Centre",
+                "locationID": "a0R4a000000PvP1EAK",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-29",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-29",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.857556212,
                 "lat": -39.516205916
@@ -5732,11 +5752,11 @@
                 ]
             },
             "properties": {
-                "location": "Taradale Club Vaccination Centre",
-                "locationID": "a0R4a000000PvP1EAK",
+                "location": "Taradale Club Vaccination Centre - AstraZeneca",
+                "locationID": "a0R4a000000adSWEAY",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "pfizerAvailabilityDate": "2021-12-29",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-29",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.857556212,
                 "lat": -39.516205916
@@ -5955,8 +5975,8 @@
                 "location": "Hastings Racecourse Vaccination Centre",
                 "locationID": "a0R4a000000PvKQEA0",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2022-01-13",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2022-01-13",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 176.8330939,
                 "lat": -39.6422477
@@ -6035,8 +6055,8 @@
                 "location": "Waipawa Vaccination Centre",
                 "locationID": "a0R4a000000PvSyEAK",
                 "dhbRegion": "Hawke\u2019s Bay",
-                "astrazenecaAvailabilityDate": "2021-12-29",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2021-12-29",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.5802245,
                 "lat": -39.9436733
@@ -6772,11 +6792,11 @@
                 ]
             },
             "properties": {
-                "location": "Palmerston North Central",
-                "locationID": "a0R4a000000Qa3eEAC",
+                "location": "Palmerston North Central - AstraZeneca",
+                "locationID": "a0R4a000000ZoPaEAK",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2021-12-24",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-01-05",
+                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 175.6124109,
                 "lat": -40.3582214
@@ -6792,11 +6812,11 @@
                 ]
             },
             "properties": {
-                "location": "Palmerston North Central - AstraZeneca",
-                "locationID": "a0R4a000000ZoPaEAK",
+                "location": "Palmerston North Central",
+                "locationID": "a0R4a000000Qa3eEAC",
                 "dhbRegion": "MidCentral",
-                "astrazenecaAvailabilityDate": "2022-01-05",
-                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDate": "2021-12-24",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.6124109,
                 "lat": -40.3582214
@@ -6815,7 +6835,7 @@
                 "location": "Unichem Awapuni Pharmacy",
                 "locationID": "a0R4a000000YdzLEAS",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2022-02-17",
+                "pfizerAvailabilityDate": "2022-02-03",
                 "pfizerAvailabilityDateFlag": "TWENTYNINE_OR_MORE",
                 "adhoc": false,
                 "lng": 175.591836669,
@@ -7877,7 +7897,7 @@
                 "dhbRegion": "South Canterbury",
                 "pfizerAvailabilityDate": "2021-12-29",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "adhoc": true,
                 "lng": 171.236017935,
                 "lat": -44.383213977
             }
@@ -7912,11 +7932,11 @@
                 ]
             },
             "properties": {
-                "location": "Timaru COVID Vaccine Community Clinic - AstraZeneca",
-                "locationID": "a0R4a000000ZoSpEAK",
+                "location": "Timaru COVID Vaccine Community Clinic",
+                "locationID": "a0R4a000000Qf41EAC",
                 "dhbRegion": "South Canterbury",
-                "astrazenecaAvailabilityDate": "2021-12-30",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-01-05",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 171.2549653,
                 "lat": -44.3991098
@@ -7932,11 +7952,11 @@
                 ]
             },
             "properties": {
-                "location": "Timaru COVID Vaccine Community Clinic",
-                "locationID": "a0R4a000000Qf41EAC",
+                "location": "Timaru COVID Vaccine Community Clinic - AstraZeneca",
+                "locationID": "a0R4a000000ZoSpEAK",
                 "dhbRegion": "South Canterbury",
-                "pfizerAvailabilityDate": "2022-01-05",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "astrazenecaAvailabilityDate": "2021-12-30",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 171.2549653,
                 "lat": -44.3991098
@@ -9195,7 +9215,7 @@
                 "location": "McNaughton's Pharmacy",
                 "locationID": "a0R4a000000SXJBEA4",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2021-12-24",
+                "pfizerAvailabilityDate": "2021-12-29",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.50181769,
@@ -11612,11 +11632,11 @@
                 ]
             },
             "properties": {
-                "location": "Wellsford Vaccination Centre",
-                "locationID": "a0R4a000000QCrPEAW",
+                "location": "Wellsford Vaccination Centre - AstraZeneca",
+                "locationID": "a0R4a000000aCSdEAM",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-01-10",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "astrazenecaAvailabilityDate": "2022-01-10",
+                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.5131599,
                 "lat": -36.2837311
@@ -11632,11 +11652,11 @@
                 ]
             },
             "properties": {
-                "location": "Wellsford Vaccination Centre - AstraZeneca",
-                "locationID": "a0R4a000000aCSdEAM",
+                "location": "Wellsford Vaccination Centre",
+                "locationID": "a0R4a000000QCrPEAW",
                 "dhbRegion": "Waitemata",
-                "astrazenecaAvailabilityDate": "2022-01-10",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2022-01-10",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.5131599,
                 "lat": -36.2837311
@@ -13212,11 +13232,11 @@
                 ]
             },
             "properties": {
-                "location": "Health New Lynn",
-                "locationID": "a0R4a000000QD8JEAW",
+                "location": "Health New Lynn - AstraZeneca",
+                "locationID": "a0R4a000000a76SEAQ",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-01-05",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "astrazenecaAvailabilityDate": "2022-01-11",
+                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.681713,
                 "lat": -36.9088169
@@ -13232,11 +13252,11 @@
                 ]
             },
             "properties": {
-                "location": "Health New Lynn - AstraZeneca",
-                "locationID": "a0R4a000000a76SEAQ",
+                "location": "Health New Lynn",
+                "locationID": "a0R4a000000QD8JEAW",
                 "dhbRegion": "Waitemata",
-                "astrazenecaAvailabilityDate": "2022-01-11",
-                "astrazenecaAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2022-01-05",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.681713,
                 "lat": -36.9088169
@@ -13575,8 +13595,8 @@
                 "location": "Te Rito",
                 "locationID": "a0R4a000000QsKBEA0",
                 "dhbRegion": "Whanganui",
-                "pfizerAvailabilityDate": "2021-12-24",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2021-12-24",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.0533969,
                 "lat": -39.9334897
@@ -13604,7 +13624,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2021-12-23T00:00:41.454Z",
+        "createdAt": "2021-12-23T01:00:48.474Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Pfizer",
