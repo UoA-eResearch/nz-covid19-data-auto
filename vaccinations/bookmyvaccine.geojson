@@ -352,11 +352,11 @@
                 ]
             },
             "properties": {
-                "location": "Caring Clinic Doctors - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cRqVEAU",
+                "location": "Caring Clinic Doctors",
+                "locationID": "a0R4a000000TbV9EAK",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-18",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.765387962,
                 "lat": -36.847990474
@@ -372,11 +372,11 @@
                 ]
             },
             "properties": {
-                "location": "Caring Clinic Doctors",
-                "locationID": "a0R4a000000TbV9EAK",
+                "location": "Caring Clinic Doctors - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cRqVEAU",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-18",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.765387962,
                 "lat": -36.847990474
@@ -476,7 +476,7 @@
                 "locationID": "a0R4a000000cSJGEA2",
                 "dhbRegion": "Auckland",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.858641946,
                 "lat": -36.850335119
@@ -572,11 +572,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Campus Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cWEgEAM",
+                "location": "Unichem Campus Pharmacy",
+                "locationID": "a0R4a000000UOtYEAW",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.769609933,
                 "lat": -36.852248252
@@ -592,11 +592,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Campus Pharmacy",
-                "locationID": "a0R4a000000UOtYEAW",
+                "location": "Unichem Campus Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cWEgEAM",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.769609933,
                 "lat": -36.852248252
@@ -732,26 +732,6 @@
                 ]
             },
             "properties": {
-                "location": "Newton Medical Centre",
-                "locationID": "a0R4a000000XAb9EAG",
-                "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.756921269,
-                "lat": -36.857648852
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.756921269,
-                    -36.857648852
-                ]
-            },
-            "properties": {
                 "location": "Newton Medical Centre - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cSEVEA2",
                 "dhbRegion": "Auckland",
@@ -767,19 +747,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.770499269,
-                    -36.860648872
+                    174.756921269,
+                    -36.857648852
                 ]
             },
             "properties": {
-                "location": "Auckland City Hospital Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cW7LEAU",
+                "location": "Newton Medical Centre",
+                "locationID": "a0R4a000000XAb9EAG",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
-                "lng": 174.770499269,
-                "lat": -36.860648872
+                "lng": 174.756921269,
+                "lat": -36.857648852
             }
         },
         {
@@ -807,6 +787,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.770499269,
+                    -36.860648872
+                ]
+            },
+            "properties": {
+                "location": "Auckland City Hospital Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cW7LEAU",
+                "dhbRegion": "Auckland",
+                "pediatricPfizerAvailabilityDate": "2022-07-20",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.770499269,
+                "lat": -36.860648872
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.858799642,
                     -36.861470518
                 ]
@@ -816,7 +816,7 @@
                 "locationID": "a0R4a000000cRqWEAU",
                 "dhbRegion": "Auckland",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.858799642,
                 "lat": -36.861470518
@@ -836,7 +836,7 @@
                 "locationID": "a0R4a000000Uw0TEAS",
                 "dhbRegion": "Auckland",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.858799642,
                 "lat": -36.861470518
@@ -996,7 +996,7 @@
                 "locationID": "a0R4a000000XKRMEA4",
                 "dhbRegion": "Auckland",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.781668918,
                 "lat": -36.872799631
@@ -1172,11 +1172,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem West City",
-                "locationID": "a0R4a000000Wo1UEAS",
+                "location": "Unichem West City - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000d9AhEAI",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6325246,
                 "lat": -36.8808089
@@ -1192,11 +1192,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem West City - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000d9AhEAI",
+                "location": "Unichem West City",
+                "locationID": "a0R4a000000Wo1UEAS",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6325246,
                 "lat": -36.8808089
@@ -1352,11 +1352,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Lunn Ave Pharmacy",
-                "locationID": "a0R4a000000XupZEAS",
+                "location": "Unichem Lunn Ave Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000d3VCEAY",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-17",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-17",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.830872276,
                 "lat": -36.888465099
@@ -1372,11 +1372,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Lunn Ave Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000d3VCEAY",
+                "location": "Unichem Lunn Ave Pharmacy",
+                "locationID": "a0R4a000000XupZEAS",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-17",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-17",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.830872276,
                 "lat": -36.888465099
@@ -1414,26 +1414,6 @@
                 ]
             },
             "properties": {
-                "location": "Balmoral Pharmacy",
-                "locationID": "a0R4a000000TxyzEAC",
-                "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.7464843,
-                "lat": -36.8894746
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.7464843,
-                    -36.8894746
-                ]
-            },
-            "properties": {
                 "location": "Balmoral Pharmacy - AstraZeneca",
                 "locationID": "a0R4a000000aHK3EAM",
                 "dhbRegion": "Auckland",
@@ -1449,19 +1429,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.7707884,
-                    -36.8913939
+                    174.7464843,
+                    -36.8894746
                 ]
             },
             "properties": {
-                "location": "Dr Nicholas Cooper Surgery VC",
-                "locationID": "a0R4a000000XmmQEAS",
+                "location": "Balmoral Pharmacy",
+                "locationID": "a0R4a000000TxyzEAC",
                 "dhbRegion": "Auckland",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
-                "lng": 174.7707884,
-                "lat": -36.8913939
+                "lng": 174.7464843,
+                "lat": -36.8894746
             }
         },
         {
@@ -1479,6 +1459,26 @@
                 "dhbRegion": "Auckland",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.7707884,
+                "lat": -36.8913939
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.7707884,
+                    -36.8913939
+                ]
+            },
+            "properties": {
+                "location": "Dr Nicholas Cooper Surgery VC",
+                "locationID": "a0R4a000000XmmQEAS",
+                "dhbRegion": "Auckland",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7707884,
                 "lat": -36.8913939
@@ -1714,11 +1714,11 @@
                 ]
             },
             "properties": {
-                "location": "Smartcare Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cW6SEAU",
+                "location": "Smartcare Pharmacy",
+                "locationID": "a0R4a000000aTQ0EAM",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-18",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-18",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.855538991,
                 "lat": -36.900186728
@@ -1734,11 +1734,11 @@
                 ]
             },
             "properties": {
-                "location": "Smartcare Pharmacy",
-                "locationID": "a0R4a000000aTQ0EAM",
+                "location": "Smartcare Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cW6SEAU",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-18",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-18",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.855538991,
                 "lat": -36.900186728
@@ -1854,11 +1854,11 @@
                 ]
             },
             "properties": {
-                "location": "Glenavon Kiwi Chemist",
-                "locationID": "a0R4a000000WnAiEAK",
+                "location": "Glenavon Kiwi Chemist - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cSjEEAU",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.701848298,
                 "lat": -36.906358633
@@ -1874,11 +1874,11 @@
                 ]
             },
             "properties": {
-                "location": "Glenavon Kiwi Chemist - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cSjEEAU",
+                "location": "Glenavon Kiwi Chemist",
+                "locationID": "a0R4a000000WnAiEAK",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.701848298,
                 "lat": -36.906358633
@@ -1914,11 +1914,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Neill\u2019s Pharmacy, Mt Wellington Countdown Complex-Children (aged 5 to 11",
-                "locationID": "a0R4a000000cWTHEA2",
+                "location": "Unichem Neill\u2019s Pharmacy, Mt Wellington Countdown Complex",
+                "locationID": "a0R4a000000SzVDEA0",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8374327,
                 "lat": -36.9088853
@@ -1934,11 +1934,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Neill\u2019s Pharmacy, Mt Wellington Countdown Complex",
-                "locationID": "a0R4a000000SzVDEA0",
+                "location": "Unichem Neill\u2019s Pharmacy, Mt Wellington Countdown Complex-Children (aged 5 to 11",
+                "locationID": "a0R4a000000cWTHEA2",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8374327,
                 "lat": -36.9088853
@@ -2017,10 +2017,10 @@
                 "location": "Unichem Walls and Roche Pharmacy",
                 "locationID": "a0R4a000000gXyJEAU",
                 "dhbRegion": "Auckland",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7761956,
                 "lat": -36.9116026
@@ -2056,11 +2056,11 @@
                 ]
             },
             "properties": {
-                "location": "Chemist Warehouse Sylvia Park - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cSfvEAE",
+                "location": "Chemist Warehouse Sylvia Park",
+                "locationID": "a0R4a000000TfeHEAS",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-15",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8390456,
                 "lat": -36.9135747
@@ -2076,11 +2076,11 @@
                 ]
             },
             "properties": {
-                "location": "Chemist Warehouse Sylvia Park",
-                "locationID": "a0R4a000000TfeHEAS",
+                "location": "Chemist Warehouse Sylvia Park - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cSfvEAE",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-15",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8390456,
                 "lat": -36.9135747
@@ -2136,11 +2136,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Roskill Village Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cWXiEAM",
+                "location": "Unichem Roskill Village Pharmacy",
+                "locationID": "a0R4a000000Ts5DEAS",
                 "dhbRegion": "Auckland",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7362444,
                 "lat": -36.9209222
@@ -2156,11 +2156,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Roskill Village Pharmacy",
-                "locationID": "a0R4a000000Ts5DEAS",
+                "location": "Unichem Roskill Village Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cWXiEAM",
                 "dhbRegion": "Auckland",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7362444,
                 "lat": -36.9209222
@@ -2479,10 +2479,10 @@
                 "location": "Unichem Katikati Pharmacy",
                 "locationID": "a0R4a000000l2JpEAI",
                 "dhbRegion": "Bay of Plenty",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.917390285,
                 "lat": -37.552630213
@@ -2521,10 +2521,10 @@
                 "location": "Katikati War Memorial Hall",
                 "locationID": "a0R4a000000lFyKEAU",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-16",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-16",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-16",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.91765,
                 "lat": -37.55381
@@ -2562,11 +2562,9 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Cherrywood Pharmacy",
-                "locationID": "a0R4a000000UxGFEA0",
+                "location": "Unichem Cherrywood Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000dQR3EAM",
                 "dhbRegion": "Bay of Plenty",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
@@ -2584,9 +2582,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Cherrywood Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000dQR3EAM",
+                "location": "Unichem Cherrywood Pharmacy",
+                "locationID": "a0R4a000000UxGFEA0",
                 "dhbRegion": "Bay of Plenty",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
@@ -2607,10 +2607,10 @@
                 "location": "Your Pharmacy Mount Maunganui",
                 "locationID": "a0R4a000000b5uEEAQ",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.227599798,
                 "lat": -37.674241272
@@ -2629,10 +2629,10 @@
                 "location": "Life Pharmacy Bayfair Community Vaccination Centre",
                 "locationID": "a0R4a000000VPkSEAW",
                 "dhbRegion": "Bay of Plenty",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 176.222781,
                 "lat": -37.6750439
@@ -2733,10 +2733,10 @@
                 "location": "Unichem Brookfield Pharmacy",
                 "locationID": "a0R4a000000WCejEAG",
                 "dhbRegion": "Bay of Plenty",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.135163074,
                 "lat": -37.689687269
@@ -2774,11 +2774,13 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Metro Pharmacy Bethlehem - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000dQRXEA2",
+                "location": "Unichem Metro Pharmacy Bethlehem",
+                "locationID": "a0R4a000000VQ2vEAG",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-17",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.108811789,
                 "lat": -37.694479654
@@ -2794,13 +2796,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Metro Pharmacy Bethlehem",
-                "locationID": "a0R4a000000VQ2vEAG",
+                "location": "Unichem Metro Pharmacy Bethlehem - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000dQRXEA2",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDate": "2022-07-17",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.108811789,
                 "lat": -37.694479654
@@ -2879,10 +2879,10 @@
                 "location": "Bethlehem Pharmacy Vaccination Centre",
                 "locationID": "a0R4a000000UVFREA4",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.110287288,
                 "lat": -37.695833869
@@ -2902,7 +2902,7 @@
                 "locationID": "a0R4a000000eqZhEAI",
                 "dhbRegion": "Bay of Plenty",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.15839,
                 "lat": -37.70026
@@ -2922,7 +2922,7 @@
                 "locationID": "a0R4a000000eoTvEAI",
                 "dhbRegion": "Bay of Plenty",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.15839,
                 "lat": -37.70026
@@ -3063,10 +3063,10 @@
                 "location": "MyPharmacy Te Puke",
                 "locationID": "a0R4a000000aHEyEAM",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.327562669,
                 "lat": -37.784421038
@@ -3105,10 +3105,10 @@
                 "location": "Life Pharmacy Te Puke",
                 "locationID": "a0R4a000000Tu4jEAC",
                 "dhbRegion": "Bay of Plenty",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.328367,
                 "lat": -37.7853811
@@ -3204,11 +3204,9 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Total Health Pharmacy",
-                "locationID": "a0R4a000000TvHwEAK",
+                "location": "Unichem Total Health Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000dQRYEA2",
                 "dhbRegion": "Bay of Plenty",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
@@ -3226,11 +3224,13 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Total Health Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000dQRYEA2",
+                "location": "Unichem Total Health Pharmacy",
+                "locationID": "a0R4a000000TvHwEAK",
                 "dhbRegion": "Bay of Plenty",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.992838876,
                 "lat": -37.95181549
@@ -3311,10 +3311,10 @@
                 "location": "Edgecumbe Pharmacy",
                 "locationID": "a0R4a000000UaqYEAS",
                 "dhbRegion": "Bay of Plenty",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.827190088,
                 "lat": -37.975286642
@@ -3373,10 +3373,10 @@
                 "location": "Rangiora - Life Pharmacy",
                 "locationID": "a0R4a000000ST0gEAG",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2022-08-03",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "pediatricPfizerAvailabilityDate": "2022-08-03",
                 "pediatricPfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDate": "2022-08-03",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 172.593583461,
                 "lat": -43.303020776
@@ -3396,7 +3396,7 @@
                 "locationID": "a0R4a000000gPdmEAE",
                 "dhbRegion": "Canterbury",
                 "novavaxAvailabilityDate": "2022-07-20",
-                "novavaxAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.59188,
                 "lat": -43.30392
@@ -3415,10 +3415,10 @@
                 "location": "Rangiora Unichem Medical Corner",
                 "locationID": "a0R4a000000cuOPEAY",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.59188,
                 "lat": -43.30392
@@ -3579,10 +3579,10 @@
                 "location": "Burwood Pharmacy",
                 "locationID": "a0R4a000000U8ePEAS",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2022-07-18",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-18",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-18",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.6884115,
                 "lat": -43.4953819
@@ -3927,10 +3927,10 @@
                 "location": "Ng\u0101 Hau e Wh\u0101 Marae Vaccination Clinic",
                 "locationID": "a0R4a000000QLfmEAG",
                 "dhbRegion": "Canterbury",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.6990161,
                 "lat": -43.5213381
@@ -4031,10 +4031,10 @@
                 "location": "Ki te tihi Hapori Hauora - Eastgate (5-11 year old bookings)",
                 "locationID": "a0R4a000000dWNIEA2",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.6749292,
                 "lat": -43.5329754
@@ -4135,10 +4135,10 @@
                 "location": "The Hornby Hub",
                 "locationID": "a0R4a000000d8sMEAQ",
                 "dhbRegion": "Canterbury",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.523878,
                 "lat": -43.5430439
@@ -4241,10 +4241,10 @@
                 "location": "Barrington Hub (Barrington Mall)",
                 "locationID": "a0R4a000000PwooEAC",
                 "dhbRegion": "Canterbury",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.620081716,
                 "lat": -43.556321795
@@ -4440,11 +4440,11 @@
                 ]
             },
             "properties": {
-                "location": "Lyttelton Pharmacy & Post Centre",
-                "locationID": "a0R4a000000VJSXEA4",
+                "location": "Lyttelton Pharmacy & Post Centre - Children (5-11 year bookings)",
+                "locationID": "a0R4a000000cvO5EAI",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.721384469,
                 "lat": -43.602738384
@@ -4460,11 +4460,11 @@
                 ]
             },
             "properties": {
-                "location": "Lyttelton Pharmacy & Post Centre - Children (5-11 year bookings)",
-                "locationID": "a0R4a000000cvO5EAI",
+                "location": "Lyttelton Pharmacy & Post Centre",
+                "locationID": "a0R4a000000VJSXEA4",
                 "dhbRegion": "Canterbury",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.721384469,
                 "lat": -43.602738384
@@ -4522,12 +4522,12 @@
                 ]
             },
             "properties": {
-                "location": "Ashburton - Life Pharmacy - Children (5-11 year old bookings)",
-                "locationID": "a0R4a000000d93yEAA",
+                "location": "Ashburton - Life Pharmacy",
+                "locationID": "a0R4a000000Q4nwEAC",
                 "dhbRegion": "Canterbury",
-                "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": true,
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 171.7474485,
                 "lat": -43.9048303
             }
@@ -4542,12 +4542,12 @@
                 ]
             },
             "properties": {
-                "location": "Ashburton - Life Pharmacy",
-                "locationID": "a0R4a000000Q4nwEAC",
+                "location": "Ashburton - Life Pharmacy - Children (5-11 year old bookings)",
+                "locationID": "a0R4a000000d93yEAA",
                 "dhbRegion": "Canterbury",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "pediatricPfizerAvailabilityDate": "2022-07-20",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
                 "lng": 171.7474485,
                 "lat": -43.9048303
             }
@@ -4587,10 +4587,10 @@
                 "location": "Waikanae Vaccination Centre Waikanae Rugby Club \u2013 Westbury Pharmacy",
                 "locationID": "a0R4a000000RxZMEA0",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.05178,
                 "lat": -40.87178
@@ -4626,11 +4626,9 @@
                 ]
             },
             "properties": {
-                "location": "Pacific Health Plus - Milne Drive",
-                "locationID": "a0R4a000000YmiHEAS",
+                "location": "Pacific Health Plus - Milne Drive - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000hn1REAQ",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
@@ -4648,9 +4646,11 @@
                 ]
             },
             "properties": {
-                "location": "Pacific Health Plus - Milne Drive - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000hn1REAQ",
+                "location": "Pacific Health Plus - Milne Drive",
+                "locationID": "a0R4a000000YmiHEAS",
                 "dhbRegion": "Capital and Coast",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
@@ -4751,10 +4751,10 @@
                 "location": "Life Pharmacy Kapiti Coast",
                 "locationID": "a0R4a000000UEPgEAO",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.005715775,
                 "lat": -40.916193501
@@ -4790,11 +4790,11 @@
                 ]
             },
             "properties": {
-                "location": "Titahi Bay Pharmacy",
-                "locationID": "a0R4a000000erA5EAI",
+                "location": "Titahi Bay Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000hUAjEAM",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.837428069,
                 "lat": -41.108455136
@@ -4810,11 +4810,11 @@
                 ]
             },
             "properties": {
-                "location": "Titahi Bay Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000hUAjEAM",
+                "location": "Titahi Bay Pharmacy",
+                "locationID": "a0R4a000000erA5EAI",
                 "dhbRegion": "Capital and Coast",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.837428069,
                 "lat": -41.108455136
@@ -4833,10 +4833,10 @@
                 "location": "Unichem Maidstone Pharmacy",
                 "locationID": "a0R4a000000Xq4yEAC",
                 "dhbRegion": "Capital and Coast",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.067837,
                 "lat": -41.12504
@@ -4872,13 +4872,11 @@
                 ]
             },
             "properties": {
-                "location": "Porirua City - Lydney Place",
-                "locationID": "a0R4a000000QCunEAG",
+                "location": "Porirua City - Lydney Place - AstraZeneca",
+                "locationID": "a0R4a000000ZoFpEAK",
                 "dhbRegion": "Capital and Coast",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-07-14",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8414292,
                 "lat": -41.1348878
@@ -4894,11 +4892,13 @@
                 ]
             },
             "properties": {
-                "location": "Porirua City - Lydney Place - AstraZeneca",
-                "locationID": "a0R4a000000ZoFpEAK",
+                "location": "Porirua City - Lydney Place",
+                "locationID": "a0R4a000000QCunEAG",
                 "dhbRegion": "Capital and Coast",
-                "astrazenecaAvailabilityDate": "2022-07-14",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8414292,
                 "lat": -41.1348878
@@ -4960,7 +4960,7 @@
                 "locationID": "a0R4a000000hlogEAA",
                 "dhbRegion": "Capital and Coast",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.865709283,
                 "lat": -41.141297226
@@ -4980,9 +4980,9 @@
                 "locationID": "a0R4a000000V8rGEAS",
                 "dhbRegion": "Capital and Coast",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8648598,
                 "lat": -41.1424893
@@ -5001,10 +5001,10 @@
                 "location": "Unichem Simon's Pharmacy",
                 "locationID": "a0R4a000000WuvsEAC",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.824743737,
                 "lat": -41.1697636
@@ -5185,10 +5185,10 @@
                 "location": "Karori Mall Vaccination Centre",
                 "locationID": "a0R4a000000QD92EAG",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7381456,
                 "lat": -41.284381
@@ -5286,26 +5286,6 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Willis Street - Novavax",
-                "locationID": "a0R4a000000h5zdEAA",
-                "dhbRegion": "Capital and Coast",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.775687953,
-                "lat": -41.286963925
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.775687953,
-                    -41.286963925
-                ]
-            },
-            "properties": {
                 "location": "Unichem Willis Street - AstraZeneca",
                 "locationID": "a0R4a000000ZoKzEAK",
                 "dhbRegion": "Capital and Coast",
@@ -5331,6 +5311,26 @@
                 "dhbRegion": "Capital and Coast",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.775687953,
+                "lat": -41.286963925
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.775687953,
+                    -41.286963925
+                ]
+            },
+            "properties": {
+                "location": "Unichem Willis Street - Novavax",
+                "locationID": "a0R4a000000h5zdEAA",
+                "dhbRegion": "Capital and Coast",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.775687953,
                 "lat": -41.286963925
@@ -5411,10 +5411,10 @@
                 "location": "Wellworks Pharmacy Taranaki Street",
                 "locationID": "a0R4a000000T2oqEAC",
                 "dhbRegion": "Capital and Coast",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.780265498,
                 "lat": -41.292907694
@@ -5495,10 +5495,10 @@
                 "location": "Newtown Mall Unichem Pharmacy",
                 "locationID": "a0R4a000000T3EMEA0",
                 "dhbRegion": "Capital and Coast",
-                "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-20",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.77906773,
                 "lat": -41.311260663
@@ -5517,10 +5517,10 @@
                 "location": "Newtown Mall Unichem Pharmacy - Novavax",
                 "locationID": "a0R4a000000UjLaEAK",
                 "dhbRegion": "Capital and Coast",
-                "novavaxAvailabilityDate": "2022-08-10",
-                "novavaxAvailabilityDateFlag": "TWENTYNINE_OR_MORE",
                 "pfizerAvailabilityDate": "2022-08-10",
-                "pfizerAvailabilityDateFlag": "TWENTYNINE_OR_MORE",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "novavaxAvailabilityDate": "2022-08-10",
+                "novavaxAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 174.7789068,
                 "lat": -41.3114823
@@ -5826,7 +5826,7 @@
                 "locationID": "a0R4a000000Sz39EAC",
                 "dhbRegion": "Counties Manukau",
                 "pfizerAvailabilityDate": "2022-07-27",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.9229487,
                 "lat": -36.8955738
@@ -5846,7 +5846,7 @@
                 "locationID": "a0R4a000000cS3UEAU",
                 "dhbRegion": "Counties Manukau",
                 "pediatricPfizerAvailabilityDate": "2022-07-27",
-                "pediatricPfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.9229487,
                 "lat": -36.8955738
@@ -6444,26 +6444,6 @@
                 ]
             },
             "properties": {
-                "location": "Pacific Otara - AstraZeneca",
-                "locationID": "a0R4a000000Zo8AEAS",
-                "dhbRegion": "Counties Manukau",
-                "astrazenecaAvailabilityDate": "2022-07-18",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.8706227,
-                "lat": -36.9594182
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.8706227,
-                    -36.9594182
-                ]
-            },
-            "properties": {
                 "location": "Pacific Otara",
                 "locationID": "a0R4a000000OMJgEAO",
                 "dhbRegion": "Counties Manukau",
@@ -6479,19 +6459,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.887845685,
-                    -36.960925046
+                    174.8706227,
+                    -36.9594182
                 ]
             },
             "properties": {
-                "location": "East Tamaki Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cShwEAE",
+                "location": "Pacific Otara - AstraZeneca",
+                "locationID": "a0R4a000000Zo8AEAS",
                 "dhbRegion": "Counties Manukau",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-07-18",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
-                "lng": 174.887845685,
-                "lat": -36.960925046
+                "lng": 174.8706227,
+                "lat": -36.9594182
             }
         },
         {
@@ -6509,6 +6489,26 @@
                 "dhbRegion": "Counties Manukau",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.887845685,
+                "lat": -36.960925046
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.887845685,
+                    -36.960925046
+                ]
+            },
+            "properties": {
+                "location": "East Tamaki Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cShwEAE",
+                "dhbRegion": "Counties Manukau",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.887845685,
                 "lat": -36.960925046
@@ -6668,7 +6668,7 @@
                 "locationID": "a0R4a000000QD7uEAG",
                 "dhbRegion": "Counties Manukau",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.9128472,
                 "lat": -36.9662822
@@ -6688,7 +6688,7 @@
                 "locationID": "a0R4a000000cSF4EAM",
                 "dhbRegion": "Counties Manukau",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.9128472,
                 "lat": -36.9662822
@@ -6887,10 +6887,10 @@
                 "location": "Unichem Mangere Pharmacy - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cWRfEAM",
                 "dhbRegion": "Counties Manukau",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.798281669,
                 "lat": -36.971208237
@@ -6986,26 +6986,6 @@
                 ]
             },
             "properties": {
-                "location": "Papatoetoe Family Doctors - Novavax",
-                "locationID": "a0R4a000000gQVrEAM",
-                "dhbRegion": "Counties Manukau",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.853698909,
-                "lat": -36.979670212
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.853698909,
-                    -36.979670212
-                ]
-            },
-            "properties": {
                 "location": "Papatoetoe Family Doctors - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cSGqEAM",
                 "dhbRegion": "Counties Manukau",
@@ -7031,6 +7011,26 @@
                 "dhbRegion": "Counties Manukau",
                 "astrazenecaAvailabilityDate": "2022-07-14",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.853698909,
+                "lat": -36.979670212
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.853698909,
+                    -36.979670212
+                ]
+            },
+            "properties": {
+                "location": "Papatoetoe Family Doctors - Novavax",
+                "locationID": "a0R4a000000gQVrEAM",
+                "dhbRegion": "Counties Manukau",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.853698909,
                 "lat": -36.979670212
@@ -7406,11 +7406,13 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Manurewa Pharmacy",
-                "locationID": "a0R4a000000YcziEAC",
+                "location": "Unichem Manurewa Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000d3VbEAI",
                 "dhbRegion": "Counties Manukau",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.897194811,
                 "lat": -37.021819049
@@ -7426,13 +7428,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Manurewa Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000d3VbEAI",
+                "location": "Unichem Manurewa Pharmacy",
+                "locationID": "a0R4a000000YcziEAC",
                 "dhbRegion": "Counties Manukau",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.897194811,
                 "lat": -37.021819049
@@ -7471,10 +7471,10 @@
                 "location": "Southmall Pharmacy - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cW6cEAE",
                 "dhbRegion": "Counties Manukau",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.8965761,
                 "lat": -37.022621
@@ -7630,26 +7630,6 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Gateway Pharmacy",
-                "locationID": "a0R4a000000WNRaEAO",
-                "dhbRegion": "Counties Manukau",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.915391053,
-                "lat": -37.039997162
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.915391053,
-                    -37.039997162
-                ]
-            },
-            "properties": {
                 "location": "Unichem Gateway Pharmacy - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cWHaEAM",
                 "dhbRegion": "Counties Manukau",
@@ -7665,19 +7645,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    174.86559213,
-                    -37.043022504
+                    174.915391053,
+                    -37.039997162
                 ]
             },
             "properties": {
-                "location": "Weymouth Medical Centre\u00a0",
-                "locationID": "a0R4a000000Te9GEAS",
+                "location": "Unichem Gateway Pharmacy",
+                "locationID": "a0R4a000000WNRaEAO",
                 "dhbRegion": "Counties Manukau",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
-                "lng": 174.86559213,
-                "lat": -37.043022504
+                "lng": 174.915391053,
+                "lat": -37.039997162
             }
         },
         {
@@ -7695,6 +7675,26 @@
                 "dhbRegion": "Counties Manukau",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.86559213,
+                "lat": -37.043022504
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.86559213,
+                    -37.043022504
+                ]
+            },
+            "properties": {
+                "location": "Weymouth Medical Centre\u00a0",
+                "locationID": "a0R4a000000Te9GEAS",
+                "dhbRegion": "Counties Manukau",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.86559213,
                 "lat": -37.043022504
@@ -7910,13 +7910,11 @@
                 ]
             },
             "properties": {
-                "location": "Ibuy Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cSk3EAE",
+                "location": "Ibuy Pharmacy",
+                "locationID": "a0R4a000000WeHpEAK",
                 "dhbRegion": "Counties Manukau",
-                "pfizerAvailabilityDate": "2022-07-15",
+                "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pediatricPfizerAvailabilityDate": "2022-07-15",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.903311327,
                 "lat": -37.189442401
@@ -7932,11 +7930,13 @@
                 ]
             },
             "properties": {
-                "location": "Ibuy Pharmacy",
-                "locationID": "a0R4a000000WeHpEAK",
+                "location": "Ibuy Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cSk3EAE",
                 "dhbRegion": "Counties Manukau",
-                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDate": "2022-07-15",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-15",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.903311327,
                 "lat": -37.189442401
@@ -8216,7 +8216,7 @@
                 "locationID": "a0R4a000000V1EfEAK",
                 "dhbRegion": "Hawke\u2019s Bay",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.8685821,
                 "lat": -39.5231359
@@ -8434,26 +8434,6 @@
                 ]
             },
             "properties": {
-                "location": "Waipawa Vaccination Centre - Novavax",
-                "locationID": "a0R4a000000g9QqEAI",
-                "dhbRegion": "Hawke\u2019s Bay",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
-                "lng": 176.5802245,
-                "lat": -39.9436733
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    176.5802245,
-                    -39.9436733
-                ]
-            },
-            "properties": {
                 "location": "Waipawa Vaccination Centre - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000d9wZEAQ",
                 "dhbRegion": "Hawke\u2019s Bay",
@@ -8509,6 +8489,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    176.5802245,
+                    -39.9436733
+                ]
+            },
+            "properties": {
+                "location": "Waipawa Vaccination Centre - Novavax",
+                "locationID": "a0R4a000000g9QqEAI",
+                "dhbRegion": "Hawke\u2019s Bay",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
+                "lng": 176.5802245,
+                "lat": -39.9436733
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     175.0728562,
                     -41.1218246
                 ]
@@ -8517,10 +8517,10 @@
                 "location": "Unichem Health Centre Upper Hutt",
                 "locationID": "a0R4a000000UblXEAS",
                 "dhbRegion": "Hutt",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.0728562,
                 "lat": -41.1218246
@@ -8576,13 +8576,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Upper Hutt Pharmacy - (Broadway on Fergusson Drive)",
-                "locationID": "a0R4a000000SzAKEA0",
+                "location": "Unichem Upper Hutt Pharmacy - (Broadway on Fergusson Drive) - AstraZeneca",
+                "locationID": "a0R4a000000ZoItEAK",
                 "dhbRegion": "Hutt",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-07-14",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.058262654,
                 "lat": -41.125395692
@@ -8598,11 +8596,13 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Upper Hutt Pharmacy - (Broadway on Fergusson Drive) - AstraZeneca",
-                "locationID": "a0R4a000000ZoItEAK",
+                "location": "Unichem Upper Hutt Pharmacy - (Broadway on Fergusson Drive)",
+                "locationID": "a0R4a000000SzAKEA0",
                 "dhbRegion": "Hutt",
-                "astrazenecaAvailabilityDate": "2022-07-14",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.058262654,
                 "lat": -41.125395692
@@ -8727,10 +8727,10 @@
                 "location": "330 High Street",
                 "locationID": "a0R4a000000QDUkEAO",
                 "dhbRegion": "Hutt",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.9068927,
                 "lat": -41.2074727
@@ -8749,10 +8749,10 @@
                 "location": "Life Pharmacy Queensgate",
                 "locationID": "a0R4a000000U7eKEAS",
                 "dhbRegion": "Hutt",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.9064448,
                 "lat": -41.2099569
@@ -8771,10 +8771,10 @@
                 "location": "Waiwhet\u016b Community Clinic",
                 "locationID": "a0R4a000000QDq2EAG",
                 "dhbRegion": "Hutt",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.9230552,
                 "lat": -41.2252094
@@ -8833,10 +8833,10 @@
                 "location": "Owhata Pharmacy - next door to Tiaho Medical Centre",
                 "locationID": "a0R4a000000VUBoEAO",
                 "dhbRegion": "Lakes",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.302375959,
                 "lat": -38.129575366
@@ -8875,10 +8875,10 @@
                 "location": "Unichem Central Pharmacy Rotorua",
                 "locationID": "a0R4a000000UwU1EAK",
                 "dhbRegion": "Lakes",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.2464368,
                 "lat": -38.1354955
@@ -8897,10 +8897,10 @@
                 "location": "Te Runganga o Ngati Pikiao",
                 "locationID": "a0R4a000000YQsnEAG",
                 "dhbRegion": "Lakes",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.249230283,
                 "lat": -38.136435019
@@ -8919,10 +8919,10 @@
                 "location": "Te Hau O Rehua Lakes DHB Vaccination Centre",
                 "locationID": "a0R4a000000QGl8EAG",
                 "dhbRegion": "Lakes",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.240250226,
                 "lat": -38.13722946
@@ -9001,10 +9001,10 @@
                 "location": "Taupo COVID-19 Immunisation Hub",
                 "locationID": "a0R4a000000QGk0EAG",
                 "dhbRegion": "Lakes",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 176.0869269,
                 "lat": -38.6819298
@@ -9040,11 +9040,11 @@
                 ]
             },
             "properties": {
-                "location": "WW Clinic on Grey - Novavax",
-                "locationID": "a0R4a000000gGAhEAM",
+                "location": "WW Clinic on Grey",
+                "locationID": "a0R4a000000SwzEEAS",
                 "dhbRegion": "MidCentral",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.622208155,
                 "lat": -40.347030808
@@ -9060,11 +9060,11 @@
                 ]
             },
             "properties": {
-                "location": "WW Clinic on Grey",
-                "locationID": "a0R4a000000SwzEEAS",
+                "location": "WW Clinic on Grey - Novavax",
+                "locationID": "a0R4a000000gGAhEAM",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.622208155,
                 "lat": -40.347030808
@@ -9160,11 +9160,11 @@
                 ]
             },
             "properties": {
-                "location": "Palmerston North Central - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cXMrEAM",
+                "location": "Palmerston North Central",
+                "locationID": "a0R4a000000Qa3eEAC",
                 "dhbRegion": "MidCentral",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.6124109,
                 "lat": -40.3582214
@@ -9180,11 +9180,11 @@
                 ]
             },
             "properties": {
-                "location": "Palmerston North Central",
-                "locationID": "a0R4a000000Qa3eEAC",
+                "location": "Palmerston North Central - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cXMrEAM",
                 "dhbRegion": "MidCentral",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.6124109,
                 "lat": -40.3582214
@@ -9463,10 +9463,10 @@
                 "location": "Golden Bay Pharmacy",
                 "locationID": "a0R4a000000SLofEAG",
                 "dhbRegion": "Nelson Marlborough",
-                "pfizerAvailabilityDate": "2022-07-19",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-19",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-19",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 172.805977464,
                 "lat": -40.859772511
@@ -9615,10 +9615,10 @@
                 "location": "Hauora Health Centre",
                 "locationID": "a0R4a000000SLg7EAG",
                 "dhbRegion": "Nelson Marlborough",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.287167798,
                 "lat": -41.273542937
@@ -9743,10 +9743,10 @@
                 "location": "Queen Street Pharmacy",
                 "locationID": "a0R4a000000UCVtEAO",
                 "dhbRegion": "Nelson Marlborough",
-                "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-20",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.1850382,
                 "lat": -41.3398946
@@ -9829,10 +9829,10 @@
                 "location": "Community Care Pharmacy",
                 "locationID": "a0R4a000000SLEbEAO",
                 "dhbRegion": "Nelson Marlborough",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.9601564,
                 "lat": -41.5148109
@@ -9851,10 +9851,10 @@
                 "location": "Blenheim Vaccination Centre",
                 "locationID": "a0R4a000000QS0UEAW",
                 "dhbRegion": "Nelson Marlborough",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.957288474,
                 "lat": -41.515772621
@@ -9935,10 +9935,10 @@
                 "location": "John Poswillo Pharmacy Ltd",
                 "locationID": "a0R4a000000SLONEA4",
                 "dhbRegion": "Nelson Marlborough",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.957654,
                 "lat": -41.517059
@@ -9994,11 +9994,11 @@
                 ]
             },
             "properties": {
-                "location": "Kaitaia Matthews Ave Centre - Novavax",
-                "locationID": "a0R4a000000gJtiEAE",
+                "location": "Kaitaia Matthews Ave Centre - AstraZeneca",
+                "locationID": "a0R4a000000ZoUMEA0",
                 "dhbRegion": "Northland",
-                "novavaxAvailabilityDate": "2022-07-19",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-07-19",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.2660678,
                 "lat": -35.1143854
@@ -10014,11 +10014,11 @@
                 ]
             },
             "properties": {
-                "location": "Kaitaia Matthews Ave Centre - AstraZeneca",
-                "locationID": "a0R4a000000ZoUMEA0",
+                "location": "Kaitaia Matthews Ave Centre - Novavax",
+                "locationID": "a0R4a000000gJtiEAE",
                 "dhbRegion": "Northland",
-                "astrazenecaAvailabilityDate": "2022-07-19",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDate": "2022-07-19",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.2660678,
                 "lat": -35.1143854
@@ -10039,26 +10039,6 @@
                 "dhbRegion": "Northland",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 173.950228,
-                "lat": -35.2345938
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    173.950228,
-                    -35.2345938
-                ]
-            },
-            "properties": {
-                "location": "Kerikeri 1 Sammaree Place (old Placemakers Building) - Novavax",
-                "locationID": "a0R4a000000gKKoEAM",
-                "dhbRegion": "Northland",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.950228,
                 "lat": -35.2345938
@@ -10099,6 +10079,26 @@
                 "dhbRegion": "Northland",
                 "astrazenecaAvailabilityDate": "2022-07-18",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 173.950228,
+                "lat": -35.2345938
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    173.950228,
+                    -35.2345938
+                ]
+            },
+            "properties": {
+                "location": "Kerikeri 1 Sammaree Place (old Placemakers Building) - Novavax",
+                "locationID": "a0R4a000000gKKoEAM",
+                "dhbRegion": "Northland",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.950228,
                 "lat": -35.2345938
@@ -10197,31 +10197,11 @@
                 "location": "Kensington Pharmacy",
                 "locationID": "a0R4a000000TLq9EAG",
                 "dhbRegion": "Northland",
-                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDate": "2022-07-16",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.3206615,
                 "lat": -35.7085154
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.3271179,
-                    -35.7345945
-                ]
-            },
-            "properties": {
-                "location": "Whangarei - Semenoff Stadium (Northland Event Centre) - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000ctdiEAA",
-                "dhbRegion": "Northland",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.3271179,
-                "lat": -35.7345945
             }
         },
         {
@@ -10239,6 +10219,26 @@
                 "dhbRegion": "Northland",
                 "astrazenecaAvailabilityDate": "2022-07-14",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.3271179,
+                "lat": -35.7345945
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.3271179,
+                    -35.7345945
+                ]
+            },
+            "properties": {
+                "location": "Whangarei - Semenoff Stadium (Northland Event Centre) - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000ctdiEAA",
+                "dhbRegion": "Northland",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.3271179,
                 "lat": -35.7345945
@@ -10318,27 +10318,7 @@
                 "locationID": "a0R4a000000gKhTEAU",
                 "dhbRegion": "Northland",
                 "novavaxAvailabilityDate": "2022-07-20",
-                "novavaxAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": false,
-                "lng": 173.8654634,
-                "lat": -35.9424819
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    173.8654634,
-                    -35.9424819
-                ]
-            },
-            "properties": {
-                "location": "Dargaville Normanby Street Centre",
-                "locationID": "a0R4a000000QDS5EAO",
-                "dhbRegion": "Northland",
-                "pfizerAvailabilityDate": "2022-07-18",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.8654634,
                 "lat": -35.9424819
@@ -10359,6 +10339,26 @@
                 "dhbRegion": "Northland",
                 "astrazenecaAvailabilityDate": "2022-07-18",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 173.8654634,
+                "lat": -35.9424819
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    173.8654634,
+                    -35.9424819
+                ]
+            },
+            "properties": {
+                "location": "Dargaville Normanby Street Centre",
+                "locationID": "a0R4a000000QDS5EAO",
+                "dhbRegion": "Northland",
+                "pfizerAvailabilityDate": "2022-07-18",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 173.8654634,
                 "lat": -35.9424819
@@ -10398,7 +10398,7 @@
                 "locationID": "a0R4a000000V7iNEAS",
                 "dhbRegion": "Northland",
                 "pfizerAvailabilityDate": "2022-07-27",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 174.5852458,
                 "lat": -36.0949244
@@ -10674,11 +10674,11 @@
                 ]
             },
             "properties": {
-                "location": "Antidote Queenstown - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cgpBEAQ",
+                "location": "Antidote Queenstown",
+                "locationID": "a0R4a000000SqVNEA0",
                 "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-18",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.742354747,
                 "lat": -45.011735785
@@ -10694,11 +10694,11 @@
                 ]
             },
             "properties": {
-                "location": "Antidote Queenstown",
-                "locationID": "a0R4a000000SqVNEA0",
+                "location": "Antidote Queenstown - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cgpBEAQ",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-18",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.742354747,
                 "lat": -45.011735785
@@ -10794,26 +10794,6 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Remarkables Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000chp7EAA",
-                "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-16",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 168.743590465,
-                "lat": -45.027404166
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    168.743590465,
-                    -45.027404166
-                ]
-            },
-            "properties": {
                 "location": "Unichem Remarkables Pharmacy",
                 "locationID": "a0R4a000000SqYMEA0",
                 "dhbRegion": "Southern",
@@ -10829,19 +10809,19 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    168.66049483,
-                    -45.032554879
+                    168.743590465,
+                    -45.027404166
                 ]
             },
             "properties": {
-                "location": "Life Pharmacy Wilkinsons",
-                "locationID": "a0R4a000000T7dTEAS",
+                "location": "Unichem Remarkables Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000chp7EAA",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-16",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
-                "lng": 168.66049483,
-                "lat": -45.032554879
+                "lng": 168.743590465,
+                "lat": -45.027404166
             }
         },
         {
@@ -10859,6 +10839,26 @@
                 "dhbRegion": "Southern",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 168.66049483,
+                "lat": -45.032554879
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    168.66049483,
+                    -45.032554879
+                ]
+            },
+            "properties": {
+                "location": "Life Pharmacy Wilkinsons",
+                "locationID": "a0R4a000000T7dTEAS",
+                "dhbRegion": "Southern",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.66049483,
                 "lat": -45.032554879
@@ -10898,7 +10898,7 @@
                 "locationID": "a0R4a000000gwP8EAI",
                 "dhbRegion": "Southern",
                 "novavaxAvailabilityDate": "2022-07-20",
-                "novavaxAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 169.1940886,
                 "lat": -45.0378056
@@ -10957,8 +10957,8 @@
                 "location": "Cromwell - Cromwell Family Practice",
                 "locationID": "a0R4a000000QVeXEAW",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-28",
+                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
                 "adhoc": false,
                 "lng": 169.1946447,
                 "lat": -45.0497903
@@ -10994,12 +10994,12 @@
                 ]
             },
             "properties": {
-                "location": "Oamaru - Northend Health Centre",
-                "locationID": "a0R4a000000QZHzEAO",
+                "location": "Oamaru - Northend Health Centre - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000chJ1EAI",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
+                "pediatricPfizerAvailabilityDate": "2022-07-18",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": true,
                 "lng": 170.9799679,
                 "lat": -45.079997
             }
@@ -11014,12 +11014,12 @@
                 ]
             },
             "properties": {
-                "location": "Oamaru - Northend Health Centre - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000chJ1EAI",
+                "location": "Oamaru - Northend Health Centre",
+                "locationID": "a0R4a000000QZHzEAO",
                 "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-18",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": true,
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
                 "lng": 170.9799679,
                 "lat": -45.079997
             }
@@ -11118,7 +11118,7 @@
                 "locationID": "a0R4a000000QZLFEA4",
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.970676372,
                 "lat": -45.096551576
@@ -11318,30 +11318,10 @@
                 "locationID": "a0R4a000000SwYfEAK",
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.517863014,
                 "lat": -45.854542127
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    170.519243602,
-                    -45.854965122
-                ]
-            },
-            "properties": {
-                "location": "Antidote Gardens",
-                "locationID": "a0R4a000000SXZ9EAO",
-                "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 170.519243602,
-                "lat": -45.854965122
             }
         },
         {
@@ -11359,6 +11339,26 @@
                 "dhbRegion": "Southern",
                 "pediatricPfizerAvailabilityDate": "2022-07-15",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 170.519243602,
+                "lat": -45.854965122
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    170.519243602,
+                    -45.854965122
+                ]
+            },
+            "properties": {
+                "location": "Antidote Gardens",
+                "locationID": "a0R4a000000SXZ9EAO",
+                "dhbRegion": "Southern",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.519243602,
                 "lat": -45.854965122
@@ -11438,7 +11438,7 @@
                 "locationID": "a0R4a000000fjvDEAQ",
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.507155053,
                 "lat": -45.867441
@@ -11534,11 +11534,11 @@
                 ]
             },
             "properties": {
-                "location": "Dunedin Immunisation Centre",
-                "locationID": "a0R4a000000QVmvEAG",
+                "location": "Dunedin Immunisation Centre - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cWqXEAU",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.5083038,
                 "lat": -45.8688666
@@ -11554,11 +11554,11 @@
                 ]
             },
             "properties": {
-                "location": "Dunedin Immunisation Centre - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cWqXEAU",
+                "location": "Dunedin Immunisation Centre",
+                "locationID": "a0R4a000000QVmvEAG",
                 "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.5083038,
                 "lat": -45.8688666
@@ -11714,11 +11714,11 @@
                 ]
             },
             "properties": {
-                "location": "Anderson's Exchange Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cglYEAQ",
+                "location": "Anderson's Exchange Pharmacy",
+                "locationID": "a0R4a000000SI5cEAG",
                 "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.500104,
                 "lat": -45.8775195
@@ -11734,11 +11734,11 @@
                 ]
             },
             "properties": {
-                "location": "Anderson's Exchange Pharmacy",
-                "locationID": "a0R4a000000SI5cEAG",
+                "location": "Anderson's Exchange Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cglYEAQ",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.500104,
                 "lat": -45.8775195
@@ -11798,7 +11798,7 @@
                 "locationID": "a0R4a000000SjnHEAS",
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 170.347141323,
                 "lat": -45.882845357
@@ -11958,7 +11958,7 @@
                 "locationID": "a0R4a000000U2KqEAK",
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-27",
-                "pfizerAvailabilityDateFlag": "FIFTEEN_TO_TWENTYEIGHT",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 170.429987593,
                 "lat": -45.901724001
@@ -12018,30 +12018,10 @@
                 "locationID": "a0R4a000000chuwEAA",
                 "dhbRegion": "Southern",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 169.2629683,
                 "lat": -45.9373066
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    168.94580004,
-                    -46.099883365
-                ]
-            },
-            "properties": {
-                "location": "La Hood's Chemist - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000chHtEAI",
-                "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 168.94580004,
-                "lat": -46.099883365
             }
         },
         {
@@ -12059,6 +12039,26 @@
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 168.94580004,
+                "lat": -46.099883365
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    168.94580004,
+                    -46.099883365
+                ]
+            },
+            "properties": {
+                "location": "La Hood's Chemist - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000chHtEAI",
+                "dhbRegion": "Southern",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.94580004,
                 "lat": -46.099883365
@@ -12214,11 +12214,11 @@
                 ]
             },
             "properties": {
-                "location": "Bates Pharmacy",
-                "locationID": "a0R4a000000SIDWEA4",
+                "location": "Bates Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cgrgEAA",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-15",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 169.7392315,
                 "lat": -46.2377617
@@ -12234,11 +12234,11 @@
                 ]
             },
             "properties": {
-                "location": "Bates Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cgrgEAA",
+                "location": "Bates Pharmacy",
+                "locationID": "a0R4a000000SIDWEA4",
                 "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-15",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 169.7392315,
                 "lat": -46.2377617
@@ -12314,11 +12314,11 @@
                 ]
             },
             "properties": {
-                "location": "Waikiwi Medical Centre - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000dVmmEAE",
+                "location": "Waikiwi Medical Centre",
+                "locationID": "a0R4a000000SNn7EAG",
                 "dhbRegion": "Southern",
-                "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.347874984,
                 "lat": -46.37900831
@@ -12334,11 +12334,11 @@
                 ]
             },
             "properties": {
-                "location": "Waikiwi Medical Centre",
-                "locationID": "a0R4a000000SNn7EAG",
+                "location": "Waikiwi Medical Centre - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000dVmmEAE",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-20",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.347874984,
                 "lat": -46.37900831
@@ -12418,7 +12418,7 @@
                 "locationID": "a0R4a000000STtjEAG",
                 "dhbRegion": "Southern",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.355055298,
                 "lat": -46.410238731
@@ -12454,11 +12454,11 @@
                 ]
             },
             "properties": {
-                "location": "Invercargill - Civic Theatre - AstraZeneca",
-                "locationID": "a0R4a000000ZoFQEA0",
+                "location": "Invercargill - Civic Theatre",
+                "locationID": "a0R4a000000QVceEAG",
                 "dhbRegion": "Southern",
-                "astrazenecaAvailabilityDate": "2022-07-14",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.352028,
                 "lat": -46.412778
@@ -12474,11 +12474,11 @@
                 ]
             },
             "properties": {
-                "location": "Invercargill - Civic Theatre",
-                "locationID": "a0R4a000000QVceEAG",
+                "location": "Invercargill - Civic Theatre - AstraZeneca",
+                "locationID": "a0R4a000000ZoFQEA0",
                 "dhbRegion": "Southern",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-07-14",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 168.352028,
                 "lat": -46.412778
@@ -12654,26 +12654,6 @@
                 ]
             },
             "properties": {
-                "location": "Gisborne Community Vaccination Centre - AstraZeneca",
-                "locationID": "a0R4a000000ZoCgEAK",
-                "dhbRegion": "Tairawhiti",
-                "astrazenecaAvailabilityDate": "2022-07-15",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 178.0226011,
-                "lat": -38.6620719
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    178.0226011,
-                    -38.6620719
-                ]
-            },
-            "properties": {
                 "location": "Gisborne Community Vaccination Centre - Novavax",
                 "locationID": "a0R4a000000gGGQEA2",
                 "dhbRegion": "Tairawhiti",
@@ -12719,6 +12699,26 @@
                 "dhbRegion": "Tairawhiti",
                 "pediatricPfizerAvailabilityDate": "2022-07-15",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 178.0226011,
+                "lat": -38.6620719
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    178.0226011,
+                    -38.6620719
+                ]
+            },
+            "properties": {
+                "location": "Gisborne Community Vaccination Centre - AstraZeneca",
+                "locationID": "a0R4a000000ZoCgEAK",
+                "dhbRegion": "Tairawhiti",
+                "astrazenecaAvailabilityDate": "2022-07-15",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 178.0226011,
                 "lat": -38.6620719
@@ -12799,33 +12799,13 @@
                 "location": "Bargain Chemist",
                 "locationID": "a0R4a000000UOyDEAW",
                 "dhbRegion": "Taranaki",
-                "pediatricPfizerAvailabilityDate": "2022-07-15",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-15",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-15",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.082414967,
                 "lat": -39.055966045
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.0699326,
-                    -39.0601981
-                ]
-            },
-            "properties": {
-                "location": "New Plymouth Hub - Novavax",
-                "locationID": "a0R4a000000gFOxEAM",
-                "dhbRegion": "Taranaki",
-                "novavaxAvailabilityDate": "2022-07-20",
-                "novavaxAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "adhoc": false,
-                "lng": 174.0699326,
-                "lat": -39.0601981
             }
         },
         {
@@ -12842,7 +12822,7 @@
                 "locationID": "a0R4a000000ZoAkEAK",
                 "dhbRegion": "Taranaki",
                 "astrazenecaAvailabilityDate": "2022-07-20",
-                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.0699326,
                 "lat": -39.0601981
@@ -12861,10 +12841,30 @@
                 "location": "New Plymouth Hub",
                 "locationID": "a0R4a000000PjSoEAK",
                 "dhbRegion": "Taranaki",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.0699326,
+                "lat": -39.0601981
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.0699326,
+                    -39.0601981
+                ]
+            },
+            "properties": {
+                "location": "New Plymouth Hub - Novavax",
+                "locationID": "a0R4a000000gFOxEAM",
+                "dhbRegion": "Taranaki",
+                "novavaxAvailabilityDate": "2022-07-20",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.0699326,
                 "lat": -39.0601981
@@ -12947,10 +12947,10 @@
                 "location": "Stratford Pharmacy",
                 "locationID": "a0R4a000000UPhIEAW",
                 "dhbRegion": "Taranaki",
-                "pfizerAvailabilityDate": "2022-07-16",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-16",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-16",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.284387229,
                 "lat": -39.338807435
@@ -12969,10 +12969,10 @@
                 "location": "Mackays Pharmacy",
                 "locationID": "a0R4a000000UPRYEA4",
                 "dhbRegion": "Taranaki",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.2847319,
                 "lat": -39.3402184
@@ -12991,10 +12991,10 @@
                 "location": "Hawera Hub",
                 "locationID": "a0R4a000000PjaAEAS",
                 "dhbRegion": "Taranaki",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.2738023,
                 "lat": -39.5840129
@@ -13014,7 +13014,7 @@
                 "locationID": "a0R4a000000a3cNEAQ",
                 "dhbRegion": "Taranaki",
                 "astrazenecaAvailabilityDate": "2022-07-20",
-                "astrazenecaAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.2738023,
                 "lat": -39.5840129
@@ -13076,7 +13076,7 @@
                 "locationID": "a0R4a000000SOnsEAG",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.497945572,
                 "lat": -36.759470463
@@ -13112,11 +13112,11 @@
                 ]
             },
             "properties": {
-                "location": "Mercury Bay Medical Centre - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000ctx9EAA",
+                "location": "Mercury Bay Medical Centre",
+                "locationID": "a0R4a000000Syg7EAC",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDate": "2022-07-20",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.704764484,
                 "lat": -36.834201093
@@ -13132,11 +13132,11 @@
                 ]
             },
             "properties": {
-                "location": "Mercury Bay Medical Centre",
-                "locationID": "a0R4a000000Syg7EAC",
+                "location": "Mercury Bay Medical Centre - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000ctx9EAA",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-20",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.704764484,
                 "lat": -36.834201093
@@ -13156,7 +13156,7 @@
                 "locationID": "a0R4a000000Sqd2EAC",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.84866556,
                 "lat": -37.000799829
@@ -13176,7 +13176,7 @@
                 "locationID": "a0R4a000000dEFcEAM",
                 "dhbRegion": "Waikato",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.84866556,
                 "lat": -37.000799829
@@ -13216,7 +13216,7 @@
                 "locationID": "a0R4a000000TH05EAG",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.848902,
                 "lat": -37.0020453
@@ -13397,10 +13397,10 @@
                 "location": "Huntly West Pharmacy",
                 "locationID": "a0R4a000000bGhMEAU",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.151641769,
                 "lat": -37.561328337
@@ -13476,11 +13476,11 @@
                 ]
             },
             "properties": {
-                "location": "Turangawaewae\u00a0Marae (Ng\u0101ruaw\u0101hia) Community VC- Children (aged 5 to 11)",
-                "locationID": "a0R4a000000dAAqEAM",
+                "location": "Turangawaewae\u00a0Marae (Ng\u0101ruaw\u0101hia) Community Vaccination Centre",
+                "locationID": "a0R4a000000R8AbEAK",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.15363,
                 "lat": -37.6627976
@@ -13496,11 +13496,11 @@
                 ]
             },
             "properties": {
-                "location": "Turangawaewae\u00a0Marae (Ng\u0101ruaw\u0101hia) Community Vaccination Centre",
-                "locationID": "a0R4a000000R8AbEAK",
+                "location": "Turangawaewae\u00a0Marae (Ng\u0101ruaw\u0101hia) Community VC- Children (aged 5 to 11)",
+                "locationID": "a0R4a000000dAAqEAM",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.15363,
                 "lat": -37.6627976
@@ -13539,10 +13539,10 @@
                 "location": "Unichem Rototuna Pharmacy",
                 "locationID": "a0R4a000000SXiZEAW",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.258037,
                 "lat": -37.7375311
@@ -13620,11 +13620,11 @@
                 ]
             },
             "properties": {
-                "location": "Northcare Pukete Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000ctxAEAQ",
+                "location": "Northcare Pukete Pharmacy",
+                "locationID": "a0R4a000000aArCEAU",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.241241198,
                 "lat": -37.750503093
@@ -13640,11 +13640,11 @@
                 ]
             },
             "properties": {
-                "location": "Northcare Pukete Pharmacy",
-                "locationID": "a0R4a000000aArCEAU",
+                "location": "Northcare Pukete Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000ctxAEAQ",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.241241198,
                 "lat": -37.750503093
@@ -13760,11 +13760,11 @@
                 ]
             },
             "properties": {
-                "location": "West Hamilton Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cjZEEAY",
+                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
+                "locationID": "a0R4a000000RyGnEAK",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.2373039,
                 "lat": -37.7812079
@@ -13780,11 +13780,11 @@
                 ]
             },
             "properties": {
-                "location": "Raukura\u00a0Hauora (Nawton, Hamilton) Community Vaccination Centre",
-                "locationID": "a0R4a000000RyGnEAK",
+                "location": "West Hamilton Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cjZEEAY",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.2373039,
                 "lat": -37.7812079
@@ -13842,11 +13842,11 @@
                 ]
             },
             "properties": {
-                "location": "Frankton Pharmacy",
-                "locationID": "a0R4a000000RzYKEA0",
+                "location": "Frankton Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000ctvDEAQ",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.265256671,
                 "lat": -37.787833425
@@ -13862,14 +13862,36 @@
                 ]
             },
             "properties": {
-                "location": "Frankton Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000ctvDEAQ",
+                "location": "Frankton Pharmacy",
+                "locationID": "a0R4a000000RzYKEA0",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.265256671,
                 "lat": -37.787833425
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.292126397,
+                    -37.789556548
+                ]
+            },
+            "properties": {
+                "location": "Hamilton East Pharmacy",
+                "locationID": "a0R4a000000a1GIEAY",
+                "dhbRegion": "Waikato",
+                "pediatricPfizerAvailabilityDate": "2022-07-21",
+                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDate": "2022-07-21",
+                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "adhoc": false,
+                "lng": 175.292126397,
+                "lat": -37.789556548
             }
         },
         {
@@ -13887,28 +13909,6 @@
                 "dhbRegion": "Waikato",
                 "pediatricPfizerAvailabilityDate": "2022-07-18",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 175.292126397,
-                "lat": -37.789556548
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    175.292126397,
-                    -37.789556548
-                ]
-            },
-            "properties": {
-                "location": "Hamilton East Pharmacy",
-                "locationID": "a0R4a000000a1GIEAY",
-                "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-21",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
-                "pediatricPfizerAvailabilityDate": "2022-07-21",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 175.292126397,
                 "lat": -37.789556548
@@ -13964,11 +13964,11 @@
                 ]
             },
             "properties": {
-                "location": "Anglesea Pharmacy - COVID 19 Vaccination Centre",
-                "locationID": "a0R4a000000SlgmEAC",
+                "location": "Anglesea Pharmacy - COVID 19 Vaccination Centre - Novavax",
+                "locationID": "a0R4a000000hzZdEAI",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.282819584,
                 "lat": -37.791991761
@@ -13984,11 +13984,11 @@
                 ]
             },
             "properties": {
-                "location": "Anglesea Pharmacy - COVID 19 Vaccination Centre - Novavax",
-                "locationID": "a0R4a000000hzZdEAI",
+                "location": "Anglesea Pharmacy - COVID 19 Vaccination Centre",
+                "locationID": "a0R4a000000SlgmEAC",
                 "dhbRegion": "Waikato",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.282819584,
                 "lat": -37.791991761
@@ -14027,10 +14027,10 @@
                 "location": "Te ara Manaaki Pharmacy",
                 "locationID": "a0R4a000000eWaOEAU",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.2436559,
                 "lat": -37.7955607
@@ -14071,10 +14071,10 @@
                 "location": "Westend Health Centre",
                 "locationID": "a0R4a000000aYIEEA2",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.247015998,
                 "lat": -37.796371835
@@ -14135,33 +14135,13 @@
                 "location": "Raglan Pharmacy",
                 "locationID": "a0R4a000000aqvPEAQ",
                 "dhbRegion": "Waikato",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.868593583,
                 "lat": -37.799680671
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    175.283104692,
-                    -37.804366778
-                ]
-            },
-            "properties": {
-                "location": "Pharmacy On Meade - Novavax",
-                "locationID": "a0R4a000000h0ueEAA",
-                "dhbRegion": "Waikato",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 175.283104692,
-                "lat": -37.804366778
             }
         },
         {
@@ -14179,6 +14159,26 @@
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 175.283104692,
+                "lat": -37.804366778
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    175.283104692,
+                    -37.804366778
+                ]
+            },
+            "properties": {
+                "location": "Pharmacy On Meade - Novavax",
+                "locationID": "a0R4a000000h0ueEAA",
+                "dhbRegion": "Waikato",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.283104692,
                 "lat": -37.804366778
@@ -14218,7 +14218,7 @@
                 "locationID": "a0R4a000000SwbtEAC",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 175.282726483,
                 "lat": -37.816676398
@@ -14300,7 +14300,7 @@
                 "locationID": "a0R4a000000jFVhEAM",
                 "dhbRegion": "Waikato",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.475166246,
                 "lat": -37.906017689
@@ -14336,13 +14336,11 @@
                 ]
             },
             "properties": {
-                "location": "Sanders Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000ctyDEAQ",
+                "location": "Sanders Pharmacy",
+                "locationID": "a0R4a000000SWkVEAW",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-19",
+                "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pediatricPfizerAvailabilityDate": "2022-07-19",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.34056178,
                 "lat": -38.008370945
@@ -14358,10 +14356,12 @@
                 ]
             },
             "properties": {
-                "location": "Sanders Pharmacy",
-                "locationID": "a0R4a000000SWkVEAW",
+                "location": "Sanders Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000ctyDEAQ",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDate": "2022-07-19",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-19",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.34056178,
@@ -14424,9 +14424,9 @@
                 "locationID": "a0R4a000000UltPEAS",
                 "dhbRegion": "Waikato",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.210668996,
                 "lat": -38.183494279
@@ -14524,11 +14524,13 @@
                 ]
             },
             "properties": {
-                "location": "Maniapoto Wh\u0101nau Ora Centre (Te Kuiti) - AstraZeneca",
-                "locationID": "a0R4a000000ZwMZEA0",
+                "location": "Maniapoto Wh\u0101nau Ora Centre (Te Kuiti)",
+                "locationID": "a0R4a000000RKVaEAO",
                 "dhbRegion": "Waikato",
-                "astrazenecaAvailabilityDate": "2022-07-18",
-                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-18",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-18",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.1636243,
                 "lat": -38.3319233
@@ -14544,13 +14546,11 @@
                 ]
             },
             "properties": {
-                "location": "Maniapoto Wh\u0101nau Ora Centre (Te Kuiti)",
-                "locationID": "a0R4a000000RKVaEAO",
+                "location": "Maniapoto Wh\u0101nau Ora Centre (Te Kuiti) - AstraZeneca",
+                "locationID": "a0R4a000000ZwMZEA0",
                 "dhbRegion": "Waikato",
-                "pfizerAvailabilityDate": "2022-07-18",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "pediatricPfizerAvailabilityDate": "2022-07-18",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "astrazenecaAvailabilityDate": "2022-07-18",
+                "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.1636243,
                 "lat": -38.3319233
@@ -14751,10 +14751,10 @@
                 "location": "Greytown Medical Centre",
                 "locationID": "a0R4a000000ebWQEAY",
                 "dhbRegion": "Wairarapa",
-                "pediatricPfizerAvailabilityDate": "2022-07-21",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "pfizerAvailabilityDate": "2022-07-21",
                 "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-21",
+                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
                 "adhoc": false,
                 "lng": 175.4468637,
                 "lat": -41.0919022
@@ -14812,11 +14812,11 @@
                 ]
             },
             "properties": {
-                "location": "Wellsford Vaccination Centre - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cRr9EAE",
+                "location": "Wellsford Vaccination Centre",
+                "locationID": "a0R4a000000QCrPEAW",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-15",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-15",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.5131599,
                 "lat": -36.2837311
@@ -14832,11 +14832,11 @@
                 ]
             },
             "properties": {
-                "location": "Wellsford Vaccination Centre",
-                "locationID": "a0R4a000000QCrPEAW",
+                "location": "Wellsford Vaccination Centre - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cRr9EAE",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-15",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-15",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": true,
                 "lng": 174.5131599,
                 "lat": -36.2837311
@@ -15075,10 +15075,10 @@
                 "location": "Unichem Stanmore Bay Pharmacy - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cWZPEA2",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7314728,
                 "lat": -36.6283161
@@ -15234,26 +15234,6 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Browns Bay - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cWEMEA2",
-                "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-16",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.7479827,
-                "lat": -36.714647
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.7479827,
-                    -36.714647
-                ]
-            },
-            "properties": {
                 "location": "Unichem Browns Bay",
                 "locationID": "a0R4a000000TgB0EAK",
                 "dhbRegion": "Waitemata",
@@ -15289,6 +15269,26 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    174.7479827,
+                    -36.714647
+                ]
+            },
+            "properties": {
+                "location": "Unichem Browns Bay - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cWEMEA2",
+                "dhbRegion": "Waitemata",
+                "pediatricPfizerAvailabilityDate": "2022-07-16",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.7479827,
+                "lat": -36.714647
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     174.7098268,
                     -36.728907393
                 ]
@@ -15298,7 +15298,7 @@
                 "locationID": "a0R4a000000XlXUEA0",
                 "dhbRegion": "Waitemata",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7098268,
                 "lat": -36.728907393
@@ -15334,11 +15334,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Albany Mega Centre Pharmacy",
-                "locationID": "a0R4a000000Tq93EAC",
+                "location": "Unichem Albany Mega Centre Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cW9CEAU",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.704576385,
                 "lat": -36.730186287
@@ -15354,11 +15354,11 @@
                 ]
             },
             "properties": {
-                "location": "Unichem Albany Mega Centre Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cW9CEAU",
+                "location": "Unichem Albany Mega Centre Pharmacy",
+                "locationID": "a0R4a000000Tq93EAC",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.704576385,
                 "lat": -36.730186287
@@ -15434,11 +15434,11 @@
                 ]
             },
             "properties": {
-                "location": "Healthzone\u00a0Medical\u00a0(AUT Millennium) - Novavax",
-                "locationID": "a0R4a000000gSs6EAE",
+                "location": "Healthzone\u00a0Medical\u00a0(AUT Millennium)",
+                "locationID": "a0R4a000000VSbGEAW",
                 "dhbRegion": "Waitemata",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7331282,
                 "lat": -36.7421613
@@ -15454,11 +15454,11 @@
                 ]
             },
             "properties": {
-                "location": "Healthzone\u00a0Medical\u00a0(AUT Millennium)",
-                "locationID": "a0R4a000000VSbGEAW",
+                "location": "Healthzone\u00a0Medical\u00a0(AUT Millennium) - Novavax",
+                "locationID": "a0R4a000000gSs6EAE",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.7331282,
                 "lat": -36.7421613
@@ -15514,6 +15514,26 @@
                 ]
             },
             "properties": {
+                "location": "Northcare Accident and Medical - Novavax",
+                "locationID": "a0R4a000000gSwwEAE",
+                "dhbRegion": "Waitemata",
+                "novavaxAvailabilityDate": "2022-07-18",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.728561421,
+                "lat": -36.749047513
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.728561421,
+                    -36.749047513
+                ]
+            },
+            "properties": {
                 "location": "Northcare Accident and Medical",
                 "locationID": "a0R4a000000VvgGEAS",
                 "dhbRegion": "Waitemata",
@@ -15537,30 +15557,10 @@
                 "location": "Northcare Accident and Medical - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cSEkEAM",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.728561421,
-                "lat": -36.749047513
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.728561421,
-                    -36.749047513
-                ]
-            },
-            "properties": {
-                "location": "Northcare Accident and Medical - Novavax",
-                "locationID": "a0R4a000000gSwwEAE",
-                "dhbRegion": "Waitemata",
-                "novavaxAvailabilityDate": "2022-07-18",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.728561421,
                 "lat": -36.749047513
@@ -15636,11 +15636,11 @@
                 ]
             },
             "properties": {
-                "location": "Waimauku Pharmacy - Silver Fern",
-                "locationID": "a0R4a000000UU8REAW",
+                "location": "Waimauku Pharmacy - Silver Fern - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cWcxEAE",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.4944546,
                 "lat": -36.7676372
@@ -15656,11 +15656,11 @@
                 ]
             },
             "properties": {
-                "location": "Waimauku Pharmacy - Silver Fern - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cWcxEAE",
+                "location": "Waimauku Pharmacy - Silver Fern",
+                "locationID": "a0R4a000000UU8REAW",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.4944546,
                 "lat": -36.7676372
@@ -16338,26 +16338,6 @@
                 ]
             },
             "properties": {
-                "location": "VECA Medical Health Centre - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cST1EAM",
-                "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.727209598,
-                "lat": -36.809807465
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.727209598,
-                    -36.809807465
-                ]
-            },
-            "properties": {
                 "location": "VECA Medical Health Centre -Novavax",
                 "locationID": "a0R4a000000gSvjEAE",
                 "dhbRegion": "Waitemata",
@@ -16383,6 +16363,26 @@
                 "dhbRegion": "Waitemata",
                 "pfizerAvailabilityDate": "2022-07-14",
                 "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.727209598,
+                "lat": -36.809807465
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.727209598,
+                    -36.809807465
+                ]
+            },
+            "properties": {
+                "location": "VECA Medical Health Centre - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cST1EAM",
+                "dhbRegion": "Waitemata",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.727209598,
                 "lat": -36.809807465
@@ -16560,11 +16560,11 @@
                 ]
             },
             "properties": {
-                "location": "Royal Heights Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cW3nEAE",
+                "location": "Royal Heights Pharmacy",
+                "locationID": "a0R4a000000VAraEAG",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.622970353,
                 "lat": -36.832751797
@@ -16580,11 +16580,11 @@
                 ]
             },
             "properties": {
-                "location": "Royal Heights Pharmacy",
-                "locationID": "a0R4a000000VAraEAG",
+                "location": "Royal Heights Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cW3nEAE",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.622970353,
                 "lat": -36.832751797
@@ -16700,11 +16700,11 @@
                 ]
             },
             "properties": {
-                "location": "Life Pharmacy Eastridge",
-                "locationID": "a0R4a000000Tqm3EAC",
+                "location": "Life Pharmacy Eastridge - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cVtPEAU",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-14",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.829857288,
                 "lat": -36.860114261
@@ -16720,11 +16720,11 @@
                 ]
             },
             "properties": {
-                "location": "Life Pharmacy Eastridge - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cVtPEAU",
+                "location": "Life Pharmacy Eastridge",
+                "locationID": "a0R4a000000Tqm3EAC",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-14",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.829857288,
                 "lat": -36.860114261
@@ -16843,10 +16843,10 @@
                 "location": "Unichem Medi-Centre Pharmacy - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cWR7EAM",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6300656,
                 "lat": -36.8645339
@@ -16906,7 +16906,7 @@
                 "locationID": "a0R4a000000cWWaEAM",
                 "dhbRegion": "Waitemata",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6289858,
                 "lat": -36.8689044
@@ -17202,26 +17202,6 @@
                 ]
             },
             "properties": {
-                "location": "Health New Lynn - Novavax",
-                "locationID": "a0R4a000000gQXiEAM",
-                "dhbRegion": "Waitemata",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "adhoc": false,
-                "lng": 174.681713,
-                "lat": -36.9088169
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    174.681713,
-                    -36.9088169
-                ]
-            },
-            "properties": {
                 "location": "Health New Lynn - Children (aged 5 to 11)",
                 "locationID": "a0R4a000000cRsrEAE",
                 "dhbRegion": "Waitemata",
@@ -17247,6 +17227,26 @@
                 "dhbRegion": "Waitemata",
                 "astrazenecaAvailabilityDate": "2022-07-14",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "adhoc": false,
+                "lng": 174.681713,
+                "lat": -36.9088169
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.681713,
+                    -36.9088169
+                ]
+            },
+            "properties": {
+                "location": "Health New Lynn - Novavax",
+                "locationID": "a0R4a000000gQXiEAM",
+                "dhbRegion": "Waitemata",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.681713,
                 "lat": -36.9088169
@@ -17286,7 +17286,7 @@
                 "locationID": "a0R4a000000cVzREAU",
                 "dhbRegion": "Waitemata",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6712403,
                 "lat": -36.9144985
@@ -17326,7 +17326,7 @@
                 "locationID": "a0R4a000000cWJWEA2",
                 "dhbRegion": "Waitemata",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.670239584,
                 "lat": -36.926306927
@@ -17382,11 +17382,11 @@
                 ]
             },
             "properties": {
-                "location": "Titirangi Village Pharmacy - Children (aged 5 to 11)",
-                "locationID": "a0R4a000000cW7MEAU",
+                "location": "Titirangi Village Pharmacy",
+                "locationID": "a0R4a000000WO0EEAW",
                 "dhbRegion": "Waitemata",
-                "pediatricPfizerAvailabilityDate": "2022-07-15",
-                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6566027,
                 "lat": -36.9379098
@@ -17402,11 +17402,11 @@
                 ]
             },
             "properties": {
-                "location": "Titirangi Village Pharmacy",
-                "locationID": "a0R4a000000WO0EEAW",
+                "location": "Titirangi Village Pharmacy - Children (aged 5 to 11)",
+                "locationID": "a0R4a000000cW7MEAU",
                 "dhbRegion": "Waitemata",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pediatricPfizerAvailabilityDate": "2022-07-15",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.6566027,
                 "lat": -36.9379098
@@ -17568,7 +17568,7 @@
                 "locationID": "a0R4a000000gHWsEAM",
                 "dhbRegion": "West Coast",
                 "novavaxAvailabilityDate": "2022-07-20",
-                "novavaxAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 171.1936222,
                 "lat": -42.4623225
@@ -17693,10 +17693,10 @@
                 "location": "Waka Hauora - Kai Iwi Beach",
                 "locationID": "a0R4a000000mA3cEAE",
                 "dhbRegion": "Whanganui",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 174.900840896,
                 "lat": -39.885690525
@@ -17759,14 +17759,14 @@
                 "location": "Te Rito",
                 "locationID": "a0R4a000000QsKBEA0",
                 "dhbRegion": "Whanganui",
-                "pfizerAvailabilityDate": "2022-07-14",
-                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
-                "novavaxAvailabilityDate": "2022-07-14",
-                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "astrazenecaAvailabilityDate": "2022-07-14",
                 "astrazenecaAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-14",
                 "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "pfizerAvailabilityDate": "2022-07-14",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
+                "novavaxAvailabilityDate": "2022-07-14",
+                "novavaxAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.050975525,
                 "lat": -39.930981433
@@ -17872,9 +17872,9 @@
                 "locationID": "a0R4a000000m9nnEAA",
                 "dhbRegion": "Whanganui",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.379030639,
                 "lat": -40.068870384
@@ -17916,9 +17916,9 @@
                 "locationID": "a0R4a000000m9lrEAA",
                 "dhbRegion": "Whanganui",
                 "pfizerAvailabilityDate": "2022-07-20",
-                "pfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "pediatricPfizerAvailabilityDate": "2022-07-20",
-                "pediatricPfizerAvailabilityDateFlag": "EIGHT_TO_FOURTEEN",
+                "pediatricPfizerAvailabilityDateFlag": "ONE_TO_SEVEN",
                 "adhoc": false,
                 "lng": 175.386014134,
                 "lat": -40.175218359
@@ -17926,7 +17926,7 @@
         }
     ],
     "metadata": {
-        "createdAt": "2022-07-12T23:01:42.173Z",
+        "createdAt": "2022-07-13T00:01:10.811Z",
         "failedRows": 0,
         "vaccineTypes": [
             "Paediatric Pfizer",
